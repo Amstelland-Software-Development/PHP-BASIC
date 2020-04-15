@@ -12,7 +12,7 @@ Geef de taak een pakkende titel.
 
 ## Uitleg
 
-Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijk voorbeelden.
+Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijkvoorbeelden.
 > Voorbeeld:  
 > Functies zijn een manier om je code onder te verdelen in logische blokken. Jij kan dan bepalen wanneer het blok code dat in een functie zit wordt uitegevoerd in plaats dat alle code in een script van boven naar beneden wordt uitgevoerd.
 >
@@ -29,7 +29,7 @@ Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op d
 
 ## Opdracht
 
-Duidelijke tekst die uitlegd wat de student moet precies moet doen. Eventueel onderverdeelt.
+Duidelijke tekst die uitlegt wat de student moet precies moet doen. Eventueel onderverdeeld.
 > Voorbeeld:  
 >  
 > 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
