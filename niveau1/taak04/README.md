@@ -1,13 +1,18 @@
-# PHP-BASIC-TAAK-01
+# MODULENAAM-TAAK-NR
 
 > Bijvoorbeeld:  
 > PHP-Basic-Taak-01
 
-## Wat zijn data types?
+## Titel
+
+Geef de taak een pakkende titel.
+> Bijvoorbeeld:  
+>
+> ## First Function
 
 ## Uitleg
 
-Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijkvoorbeelden.
+Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijk voorbeelden.
 > Voorbeeld:  
 > Functies zijn een manier om je code onder te verdelen in logische blokken. Jij kan dan bepalen wanneer het blok code dat in een functie zit wordt uitegevoerd in plaats dat alle code in een script van boven naar beneden wordt uitgevoerd.
 >
@@ -24,7 +29,7 @@ Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op d
 
 ## Opdracht
 
-Duidelijke tekst die uitlegt wat de student moet precies moet doen. Eventueel onderverdeeld.
+Duidelijke tekst die uitlegd wat de student moet precies moet doen. Eventueel onderverdeelt.
 > Voorbeeld:  
 >  
 > 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
