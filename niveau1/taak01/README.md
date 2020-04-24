@@ -1,14 +1,9 @@
-# MODULENAAM-TAAK-NR
+# PHP-BASIC-TAAK-01
 
 > Bijvoorbeeld:  
 > PHP-Basic-Taak-01
 
-## Titel
-
-Geef de taak een pakkende titel.
-> Bijvoorbeeld:  
->
-> ## First Function
+## Wat zijn data types?
 
 ## Uitleg
 
