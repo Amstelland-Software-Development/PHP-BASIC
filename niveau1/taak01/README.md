@@ -1,26 +1,19 @@
 # PHP-BASIC-TAAK-01
 
-> Bijvoorbeeld:  
-> PHP-Basic-Taak-01
-
-## Wat zijn data types?
+## Variabelen
 
 ## Uitleg
 
-Data types zijn
+Een variabele wordt gebruikt om bepaalde waarde op te slaan. Een variabele geven we altijd een (logische) naam en een waarde. We noemen een variabele een variabele omdat de waarde kan wijzigen (de waarde is variabel). 
 > Voorbeeld:  
-> Functies zijn een manier om je code onder te verdelen in logische blokken. Jij kan dan bepalen wanneer het blok code dat in een functie zit wordt uitegevoerd in plaats dat alle code in een script van boven naar beneden wordt uitgevoerd.
->
->Vooral als de hoeveelheid code toeneemt is het handig om goed na te denken hoe je de code kan scheiden zodat je niet telkens dezelfde code schrijft.
->  
-> In deze les leer je hoe je een aangeleverde functie aanroept zodat de code die in die functie staat wordt uitgevoerd.
+Stel je bouwt in php een spel. In dit spel moet de score van de speler worden bijgehouden. De enige manier om dit te doen is door een variabele aan te maken met een logische naam zoals $score.
 
 ## Leerdoelen
 
 Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
 > Voorbeeld:
 >
-> 1. [ ] Ik kan met PHP een functie aanspreken
+> 1. [ ] Ik maak een variabele aan in php
 
 ## Opdracht
 
