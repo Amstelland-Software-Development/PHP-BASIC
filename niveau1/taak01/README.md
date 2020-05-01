@@ -1,7 +1,5 @@
 # PHP-BASIC-TAAK-01
-
 ## Variabelen
-
 ## Uitleg
 Een variabele wordt gebruikt om dingen op te slaan. Net als dat jij ook dingen opslaat in je hoofd. Als je bijvoorbeeld nooit opslaat wat bijvoorbeeld je leeftijd is of waar je woont dan zou dat heel onhandig zijn.
 >
@@ -10,7 +8,7 @@ _Een variabele heet variabele omdat de waarde kan veranderen net zoals jouw leef
 Hoe jij dingen onthoud bepaal je zelf. Een programeertaal moet je vertellen hoe die iets moet onthouden, dit gaat volgens vaste regels _anders snapt hij er niks van_.
 
 **In PHP zijn dit de regels voor het aanmaken van een variabele:**
-* Om PHP te vertellen dat je een variabele gaat maken moet je beginnen met een `$`.
+* Om PHP te vertellen dat je een variabele gaat maken moet je beginnen met een `$`.  
 * Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_.
 * Daarna gebruik je een `=` teken.
 * Daarna zet je de waarde neer die je wilt onthouden.
