@@ -3,41 +3,40 @@
 ## Variabelen
 
 ## Uitleg
-
-Een variabele wordt gebruikt om bepaalde waarde op te slaan. Een variabele geven we altijd een (logische) naam en een waarde. We noemen een variabele een variabele omdat de waarde kan wijzigen (de waarde is variabel). In PHP moet je een $ voor de variabele naam zetten zodat PHP weet dat het een variabele is.
-> Voorbeeld:  
-> Stel je bouwt in php een spel. In dit spel moet de score van de speler worden bijgehouden. De enige manier om dit te doen is door een variabele aan te maken met een logische naam zoals $score. 
+Een variabele wordt gebruikt om dingen op te slaan. Net als dat jij ook dingen opslaat in je hoofd. Als je bijvoorbeeld nooit opslaat wat bijvoorbeeld je leeftijd is of waar je woont dan zou dat heel onhandig zijn.
 >
->Als je een spel begint is de score altijd 0.
->In php schrijf je een variabelenaam altijd met een $ ervoor
->Om een waarde aan deze variabele te geven moet je na de naam een = neerzetten gevolgd door de waarde
->In PHP moet je elk stukje code afsluiten met een ;
->In je code ziet dit er zo uit: `$score = 0`; 
+_Een variabele heet variabele omdat de waarde kan veranderen net zoals jouw leeftijd verandert._
+> 
+Hoe jij dingen onthoud bepaal je zelf. Een programeertaal moet je vertellen hoe die iets moet onthouden, dit gaat volgens vaste regels _anders snapt hij er niks van_.
+
+**In PHP zijn dit de regels voor het aanmaken van een variabele:**
+* Om PHP te vertellen dat je een variabele gaat maken moet je beginnen met een `$`.
+* Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_.
+* Daarna gebruik je een `=` teken.
+* Daarna zet je de waarde neer die je wilt onthouden.
+* En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_
+>_Voorbeeld:_  
+>Stel je bouwt in php een spel. In dit spel moet de score van de speler worden bijgehouden. De enige manier om dit te doen is door een variabele aan te maken met een logische naam zoals bijvoorbeeld $score. 
+>
+>* Als je een spel begint is de score altijd 0
+>* Als je het volgens de regels hierboven opschrijft ziet de code er zo uit: `$score = 0;`
 
 ## Leerdoelen
-
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
-> Voorbeeld:
->
-> 1. [ ] Ik maak een variabele aan in php
+>1. [ ] Ik weet wat een variabele is
+>2. [ ] Ik maak een variabele aan in PHP
+>3. [ ] Ik volg de juiste regels voor het maken van een variabele
 
 ## Opdracht
 
-Duidelijke tekst die uitlegt wat de student moet precies moet doen. Eventueel onderverdeeld.
-> Voorbeeld:  
->  
-> 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
-> 2. Pas de functie `mijnEersteFunctie` zo aan dat aan de tekst die getoond wordt in je browser een uitroepteken wordt toegevoegd.
+>1. Schrijf je code in `index.php`
+>2. Maak een variabele score aan met de waarde 0
+>3. Toon de waarde van je variabele score op het scherm met `echo`
 
 ## Eindresultaat
-
-Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
-> Voorbeeld:  
-> Als je de functie goed uitvoert wordt de volgende tekst getoond in je browser: "functie uitgevoerd"  
+Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+>0  
 
 ## Bronnen
-
-Een lijstje van links naar externe bronnen
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+>[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
+>[W3 Schools - variabelen](https://www.w3schools.com/php/php_variables.asp)  
+>[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)  
