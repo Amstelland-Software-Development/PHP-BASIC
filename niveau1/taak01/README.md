@@ -4,9 +4,15 @@
 
 ## Uitleg
 
-Een variabele wordt gebruikt om bepaalde waarde op te slaan. Een variabele geven we altijd een (logische) naam en een waarde. We noemen een variabele een variabele omdat de waarde kan wijzigen (de waarde is variabel). 
+Een variabele wordt gebruikt om bepaalde waarde op te slaan. Een variabele geven we altijd een (logische) naam en een waarde. We noemen een variabele een variabele omdat de waarde kan wijzigen (de waarde is variabel). In PHP moet je een $ voor de variabele naam zetten zodat PHP weet dat het een variabele is.
 > Voorbeeld:  
-Stel je bouwt in php een spel. In dit spel moet de score van de speler worden bijgehouden. De enige manier om dit te doen is door een variabele aan te maken met een logische naam zoals $score.
+> Stel je bouwt in php een spel. In dit spel moet de score van de speler worden bijgehouden. De enige manier om dit te doen is door een variabele aan te maken met een logische naam zoals $score. 
+>
+>Als je een spel begint is de score altijd 0.
+>In php schrijf je een variabelenaam altijd met een $ ervoor
+>Om een waarde aan deze variabele te geven moet je na de naam een = neerzetten gevolgd door de waarde
+>In PHP moet je elk stukje code afsluiten met een ;
+>In je code ziet dit er zo uit: `$score = 0`; 
 
 ## Leerdoelen
 
