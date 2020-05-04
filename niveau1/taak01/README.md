@@ -30,8 +30,8 @@ Hoe jij dingen onthoud bepaal je zelf. Een programeertaal moet je vertellen hoe 
 ## Opdracht
 
 >1. Schrijf je code in `index.php`
->2. Maak een variabele score aan met de waarde 0
->3. Toon de waarde van je variabele score op het scherm met `echo`
+>2. Maak een variabele _score_ aan met de waarde 0
+>3. Toon de waarde van de variabele _score_ op het scherm met `echo`
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 

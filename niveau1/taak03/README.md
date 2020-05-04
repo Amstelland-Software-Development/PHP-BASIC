@@ -11,7 +11,7 @@ In PHP heb je verschillende soorten datatypes namelijk:
 * float - _een decimaal getal -> 0.1_
 * boolean - _een waarde die of true (1) of false (0) is_
 * null - _geen waarde_
-* array - _meerdere waardes van verschillende types_
+* arrays en objects - _deze worden in een latere taak uitgelegd_
 
 ## In deze taak gaan we het hebben over de datatypes integer en float
 
@@ -32,19 +32,19 @@ In PHP heb je verschillende soorten datatypes namelijk:
 >4. [ ] Ik volg de juiste regels voor het maken van een variabele 
 >5. [ ] Ik volg de juiste regels voor het maken van een integer
 >6. [ ] Ik volg de juiste regels voor het maken van een float
->7. [ ] Ik kan de waarde van diverse variabele op het scherm tonen
+>7. [ ] Ik kan de waarde van de variabele op het scherm tonen
 
 ## Opdracht
 
 >1. Schrijf je code in `index.php`
->2. Maak een variabele leeftijd aan met als waarde je leeftijd
->3. Toon de waarde van de variabele leeftijd op het scherm met `echo`
->2. Maak een variabele melk aan met als waarde de huidige prijs van een pak melk, de prijs moet in decimalen worden geschreven.
->3. Toon de waarde van de variabele melk op het scherm met `echo`
+>2. Maak een variabele _leeftijd_ aan met als waarde jouw leeftijd
+>3. Toon de waarde van de variabele _leeftijd_ op het scherm met `echo`
+>2. Maak een variabele _melk_ aan met als waarde de huidige prijs van een pak melk, de prijs moet in decimalen worden geschreven.
+>3. Toon de waarde van de variabele _melk_ op het scherm met `echo`
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
->je leeftijd
+>je leeftijd  
 >de huidige prijs van een pak melk (als decimaal getal)
 
 ## Bronnen
