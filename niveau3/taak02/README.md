@@ -1,53 +1,49 @@
-# PHP-BASIC-TAAK-02
-## Datatypes
+# MODULENAAM-TAAK-NR
+
+> Bijvoorbeeld:  
+> PHP-Basic-Taak-01
+
+## Titel
+
+Geef de taak een pakkende titel.
+> Bijvoorbeeld:  
+>
+> ## First Function
+
 ## Uitleg
-In een variabele kun je verschillende soorten waarden opslaan zoals een stukje tekst zoals bijvoorbeeld je naam, een heel getal zoals bijvoorbeeld je leeftijd, een decimaal getal zoals bijvoorbeeld de kosten van je telefoon abonnement. Naast tekst en cijfers heb je ook nog datatype welke handig zijn om mee te programmeren zoals true/false, null, array en objects.
->
->_Het soort waarde dat je opslaat (tekst, getal, decimaal, etc.) noemen we een datatype._
->
-In PHP heb je verschillende soorten datatypes namelijk:
-* strings - _een rij karakters -> Hallo wereld._
-* integer - _een heel getal zonder decimalen -> 1_
-* float - _een decimaal getal -> 0.1_
-* boolean - _een waarde die of true (1) of false (0) is_
-* null - _geen waarde_
-* array - _meerdere waardes van verschillende types_
 
-## In deze taak gaan we het hebben over het datatype string
-
-**In PHP zijn dit de regels voor het opschrijven van een string:**
-* Een **STRING** moet je altijd schrijven tussen dubbele (") of enkele (') quotes. 
-* Een string kan bestaan uit een combinatie van letters en cijfers.
-* Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_ - De naam moet beginnen met een letter of een underscore (_) en is case sensitive.
-* Daarna gebruik je een `=` teken.
-* Daarna zet je de waarde neer die je wilt onthouden.
-* En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_.
->_Voorbeeld:_  
->Stel je bouwt in php een spel. In dit spel moet de score van de speler worden bijgehouden. De enige manier om dit te doen is door een variabele aan te maken met een logische naam zoals bijvoorbeeld $score. 
+Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijk voorbeelden.
+> Voorbeeld:  
+> Functies zijn een manier om je code onder te verdelen in logische blokken. Jij kan dan bepalen wanneer het blok code dat in een functie zit wordt uitegevoerd in plaats dat alle code in een script van boven naar beneden wordt uitgevoerd.
 >
->* Als je een spel begint is de score altijd 0
->* Als je het volgens de regels hierboven opschrijft ziet de code er zo uit: `$score = 0;`
->* Vergeet niet dat PHP code tussen `<?php //de code ?>` tags staat
->* Om php op het scherm te tonen gebruik je het commando `echo`  gevolgd door een spatie en de waarde die je wilt tonen dus `<?php echo waarde ?>`
+>Vooral als de hoeveelheid code toeneemt is het handig om goed na te denken hoe je de code kan scheiden zodat je niet telkens dezelfde code schrijft.
+>  
+> In deze les leer je hoe je een aangeleverde functie aanroept zodat de code die in die functie staat wordt uitgevoerd.
 
 ## Leerdoelen
->1. [ ] Ik weet wat een variabele is
->2. [ ] Ik maak een variabele aan in PHP
->3. [ ] Ik volg de juiste regels voor het maken van een variabele
->4. [ ] Ik kan de waarde van een variabele op het scherm tonen
+
+Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
+> Voorbeeld:
+>
+> 1. [ ] Ik kan met PHP een functie aanspreken
 
 ## Opdracht
 
->1. Schrijf je code in `index.php`
->2. Maak een variabele score aan met de waarde 0
->3. Toon de waarde van je variabele score op het scherm met `echo`
+Duidelijke tekst die uitlegd wat de student moet precies moet doen. Eventueel onderverdeelt.
+> Voorbeeld:  
+>  
+> 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
+> 2. Pas de functie `mijnEersteFunctie` zo aan dat aan de tekst die getoond wordt in je browser een uitroepteken wordt toegevoegd.
 
 ## Eindresultaat
-Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
->0  
+
+Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
+> Voorbeeld:  
+> Als je de functie goed uitvoert wordt de volgende tekst getoond in je browser: "functie uitgevoerd"  
 
 ## Bronnen
->[W3 Schools - php](https://www.w3schools.com/PHP/default.asp)  
->[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
->[W3 Schools - variabelen](https://www.w3schools.com/php/php_variables.asp)  
->[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)  
+
+Een lijstje van links naar externe bronnen
+> Bijvoorbeeld:  
+>[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
+>[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
