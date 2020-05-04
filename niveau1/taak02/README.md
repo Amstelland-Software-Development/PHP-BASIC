@@ -16,17 +16,8 @@ In PHP heb je verschillende soorten datatypes namelijk:
 ## In deze taak gaan we het hebben over het datatype string
 
 **In PHP zijn dit de regels voor het opschrijven van een string:**
-* Een **STRING** moet je altijd schrijven tussen dubbele (") of enkele (') quotes. 
-* Een string kan bestaan uit een combinatie van letters en cijfers.
-
->_Voorbeeld:_  
->Stel je bouwt in php een spel. In dit spel moet je de naam van een speler onthouden.
->
->* Het spel heeft 2 spelers
->* Als je het volgens de regels van een variabele (taak 1) en hierboven opschrijft ziet de code er zo uit:  
->`$speler1 = "naam";`
->* Vergeet niet dat PHP code tussen `<?php //de code ?>` tags staat
->* Om php op het scherm te tonen gebruik je het commando `echo`  gevolgd door een spatie en de waarde die je wilt tonen dus `<?php echo waarde ?>`
+* Een **string** moet je altijd schrijven tussen dubbele (") of enkele (') quotes. 
+* Een **string** kan bestaan uit een combinatie van letters en cijfers.
 
 ## Leerdoelen
 >1. [ ] Ik weet wat de verschillende datatype zijn
@@ -38,7 +29,7 @@ In PHP heb je verschillende soorten datatypes namelijk:
 ## Opdracht
 
 >1. Schrijf je code in `index.php`
->2. Maak een variabele speler1 aan met als waarde je voornaam
+>2. Maak een variabele speler1 aan met als waarde de string: je voornaam
 >3. Toon de waarde van je variabele score op het scherm met `echo`
 
 ## Eindresultaat
