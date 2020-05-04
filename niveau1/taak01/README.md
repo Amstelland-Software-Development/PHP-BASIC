@@ -18,6 +18,8 @@ Hoe jij dingen onthoud bepaal je zelf. Een programeertaal moet je vertellen hoe 
 >
 >* Als je een spel begint is de score altijd 0
 >* Als je het volgens de regels hierboven opschrijft ziet de code er zo uit: `$score = 0;`
+>* Vergeet niet dat PHP code tussen `<?php //de code ?>` tags staat
+>* Om php op het scherm te tonen gebruik je het commando `echo`  gevolgd door een spatie en de waarde die je wilt tonen dus `<?php echo waarde ?>`
 
 ## Leerdoelen
 >1. [ ] Ik weet wat een variabele is
@@ -36,6 +38,7 @@ Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser:
 >0  
 
 ## Bronnen
+>[W3 Schools - php](https://www.w3schools.com/PHP/default.asp)  
 >[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
 >[W3 Schools - variabelen](https://www.w3schools.com/php/php_variables.asp)  
 >[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)  
