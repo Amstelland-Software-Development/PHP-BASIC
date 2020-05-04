@@ -1,26 +1,26 @@
 
 # MODULENAAM
 
-> Bijvoorbeeld:  
->
-> ## PHP-Basic
+>## PHP-Basic
 
 ## Uitleg
 
-Introducerende tekst. Uitleggen nut van de module eventueel met praktijk voorbeelden.
-> Voorbeeld:  
-> In deze module leer je de basis van PHP. Je leert o.a. welke datatypes er in PHP veel gebruikt worden, hoe je de uitvoering van je programma beinvloed door het gebruik van condities binnen if/else/elif structuren en hoe je je code logisch onderverdeeld in functies.  
+In deze module leer je de basis van PHP. Je leert o.a. wat variabelen zijn, welke datatypes er in PHP veel gebruikt worden, hoe je de uitvoering van je programma beinvloed door het gebruik van condities met behulp van if/else/elseif en switch en hoe je je code logisch onderverdeeld in functies.
+
+Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
+>* Je kan PHP code overal binnen je HTML gebruiken
+>* PHP code begin je altijd met `<?php` en sluit je af met `?>`  
+>* Het bestand waar PHP instaat heeft altijd de extensie `.php`
+>* PHP is een server-side taal. Om PHP te kunnen gebruiken heb je een server nodig zoals XAMPP
 
 ## Leerdoelen
 
-Alle leerdoelen die in de lossen taken naar voren komen?  
-> Voorbeeld:
->
-> 1. [ ] Ik kan met PHP een functie aanspreken
+>1. [ ] Ik weet wat een variabele is
+>2. [ ] Ik maak een variabele aan in PHP
+>3. [ ] Ik volg de juiste regels voor het maken van een variabele
+>4. [ ] Ik kan de waarde van een variabele op het scherm tonen
 
 ## Bronnen
-
-Alle bronnen die in de lossen taken naar voren komen?
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+>[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
+>[W3 Schools - variabelen](https://www.w3schools.com/php/php_variables.asp)  
+>[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)   
