@@ -9,10 +9,10 @@ Hoe jij dingen onthoud bepaal je zelf. Een programeertaal moet je vertellen hoe 
 
 **In PHP zijn dit de regels voor het aanmaken van een variabele:**
 * Om PHP te vertellen dat je een variabele gaat maken moet je beginnen met een `$`.  
-* Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_.
+* Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_ - De naam moet beginnen met een letter of een underscore (_) en is case sensitive.
 * Daarna gebruik je een `=` teken.
 * Daarna zet je de waarde neer die je wilt onthouden.
-* En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_
+* En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_.
 >_Voorbeeld:_  
 >Stel je bouwt in php een spel. In dit spel moet de score van de speler worden bijgehouden. De enige manier om dit te doen is door een variabele aan te maken met een logische naam zoals bijvoorbeeld $score. 
 >
@@ -23,6 +23,7 @@ Hoe jij dingen onthoud bepaal je zelf. Een programeertaal moet je vertellen hoe 
 >1. [ ] Ik weet wat een variabele is
 >2. [ ] Ik maak een variabele aan in PHP
 >3. [ ] Ik volg de juiste regels voor het maken van een variabele
+>4. [ ] Ik kan de waarde van een variabele op het scherm tonen
 
 ## Opdracht
 
