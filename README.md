@@ -22,7 +22,10 @@ Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
 >5. [ ] Ik weet wat de verschillende datatype zijn
 >6. [ ] Ik maak variabele met verschillende datatype aan in PHP
 >7. [ ] Ik volg de juiste regels voor de verschillende datatype
->8. [ ] Ik kan de waarde(s) van een array variabele op het scherm tonen
+>8. [ ] Ik weet wat een indexed array is
+>9. [ ] Ik maak een indexed array aan in PHP 
+>10. [ ] Ik volg de juiste regels voor het maken van een indexed array
+>11. [ ] Ik kan de waarde(s) van een indexed array variabele op het scherm tonen
 
 ## Bronnen
 >[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
