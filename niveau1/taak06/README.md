@@ -1,7 +1,7 @@
 # PHP-BASIC-TAAK-06
 ## Datatypes - tonen op het scherm met gettype()
 ## Uitleg
-Je weet uit welke verschillende datatype een variabele kan bestaan. 
+Je weet uit welke verschillende datatype een variabele kan bestaan 
 en je weet dat je het datatype van een variabele kan opvragen met de ingebouwde PHP functie gettype();
 >
 ## Leerdoelen
@@ -18,14 +18,14 @@ en je weet dat je het datatype van een variabele kan opvragen met de ingebouwde 
 >2. Maak 5 variabelen aan met de volgende 5 datatype: 
 >* string
 >* integer
->* float
+>* float (deze geeft de waarde double terug)
 >* boolean
 >* null
 >3. Toon het datatype van de 5 door jou gemaakte variabelen op het scherm met `gettype();`
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
->string integer float boolean null
+>string integer double boolean null
 
 ## Bronnen
 >[W3 Schools - datatypes](https://www.w3schools.com/php/php_datatypes.asp)  
