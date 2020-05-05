@@ -1,7 +1,7 @@
 # PHP-BASIC-TAAK-04
 ## Datatypes - boolean / null
 ## Uitleg
-In een variabele kun je verschillende soorten waarden opslaan zoals een stukje tekst zoals bijvoorbeeld je naam, een heel getal zoals bijvoorbeeld je leeftijd, een decimaal getal zoals bijvoorbeeld de kosten van je telefoon abonnement. Naast tekst en cijfers heb je ook nog datatype welke handig zijn om mee te programmeren zoals true/false, null, array en objects.
+In een variabele kun je verschillende soorten waarden opslaan, zoals een stukje tekst, bijvoorbeeld je naam, een heel getal, bijvoorbeeld je leeftijd, een decimaal getal, zoals  de kosten van je telefoonabonnement. Naast tekst en cijfers heb je ook nog datatypes die handig zijn om mee te programmeren zoals true/false, null, array en objects.
 >
 >_Het soort waarde dat je opslaat (tekst, getal, decimaal, etc.) noemen we een datatype._
 >
@@ -23,7 +23,7 @@ Boolean waardes worden vaak gebruikt voor het testen van condities (if/else/else
 >`$x = true;` of `$x = false;`
 
 
-Null is een speciaal datatype en kan alleen de waarde null bevatten, een variabele van het type null heeft geen waarde. Variabele die geen waarde hebben krijgen automatisch het type Null, ook kan je Null gebruiken als waarde om een variabele leeg te maken.
+Null is een speciaal datatype en kan alleen de waarde null bevatten, een variabele van het type null heeft geen waarde. Variabelen die geen waarde hebben, krijgen automatisch het type Null. Ook kan je Null gebruiken als waarde om een variabele leeg te maken.
 >voorbeeld:  
 >`$x;` of `$x = null;`
 
@@ -44,7 +44,7 @@ Null is een speciaal datatype en kan alleen de waarde null bevatten, een variabe
 >5. Toon de waarde van de variabele _test_ op het scherm met `echo`
 
 ## Eindresultaat
-Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
 >true  
 >
 
