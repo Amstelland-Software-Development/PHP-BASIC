@@ -6,7 +6,7 @@ In een variabele kun je verschillende soorten waarden opslaan zoals een stukje t
 >_Het soort waarde dat je opslaat (tekst, getal, decimaal, etc.) noemen we een datatype._
 >
 In PHP heb je verschillende soorten datatypes namelijk:
-* strings - _een rij karakters -> Hallo wereld._
+* string - _een rij karakters -> Hallo wereld._
 * integer - _een heel getal zonder decimalen -> 1_
 * float - _een decimaal getal -> 0.1_
 * boolean - _een waarde die of true (1) of false (0) is_

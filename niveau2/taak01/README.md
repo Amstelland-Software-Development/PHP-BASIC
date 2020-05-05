@@ -1,49 +1,49 @@
-# MODULENAAM-TAAK-NR
-
-> Bijvoorbeeld:  
-> PHP-Basic-Taak-01
-
-## Titel
-
-Geef de taak een pakkende titel.
-> Bijvoorbeeld:  
->
-> ## First Function
-
+# PHP-BASIC-TAAK-01
+## Arrays
 ## Uitleg
-
-Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijk voorbeelden.
-> Voorbeeld:  
-> Functies zijn een manier om je code onder te verdelen in logische blokken. Jij kan dan bepalen wanneer het blok code dat in een functie zit wordt uitegevoerd in plaats dat alle code in een script van boven naar beneden wordt uitgevoerd.
+In veel gevallen is het handig als je meerdere waardes in een variabele kan opslaan. Bijvoorbeeld als je een lijst met 20 films wil tonen. Je zou dan 20 aparte variabelen kunnen maken maar het is veel handiger om dit in een array variabele te zetten. _straks moeten we misschien wel 3000 films opslaan._
 >
->Vooral als de hoeveelheid code toeneemt is het handig om goed na te denken hoe je de code kan scheiden zodat je niet telkens dezelfde code schrijft.
->  
-> In deze les leer je hoe je een aangeleverde functie aanroept zodat de code die in die functie staat wordt uitgevoerd.
+>_Een array is een speciale variabele waarin je meerdere waardes van een of meerdere datatype kan opslaan._
+>
+Er bestaan verschillende soorten arrays, De meest simpele is de nummerieke (of indexed) array. Daar gaat deze taak over.
+>
+**In PHP zijn dit de regels voor het opschrijven van een array:**
+* Om PHP te vertellen dat je een variabele gaat maken moet je beginnen met een `$`.  
+* Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_ - De naam moet beginnen met een letter of een underscore (_) en is case sensitive.
+* Daarna gebruik je een `=` teken.
+* Daarna gebruik je het woord `array`
+* De waardes van de array zet je tussen `()` gescheiden door een `,`
+* En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_.
 
+dit ziet er in code zo uit:
+```php
+    $myMovies = array("Spiderman", "Batman", "The Joker");
+```
+Nu moeten we nog leren hoe we de waardes op het scherm kunnen tonen
+>
+**In PHP zijn dit de regels voor het tonen van een array:**
+* Je kan de waardes uit een array opvragen via de positie (index) van de waarde
+* Een indexed array begint altijd te tellen bij 0
+* Dus als je de eerste waarde uit de array wil opvragen kun je dit zo doen:
+```php
+    echo $myMovies[0];
+```
+>
 ## Leerdoelen
-
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
-> Voorbeeld:
->
-> 1. [ ] Ik kan met PHP een functie aanspreken
+>1. [ ] Ik weet wat een indexed array is
+>2. [ ] Ik maak een indexed array aan in PHP 
+>4. [ ] Ik volg de juiste regels voor het maken van een indexed array
+>5. [ ] Ik kan de waarde(s) van een indexed array variabele op het scherm tonen
 
 ## Opdracht
 
-Duidelijke tekst die uitlegd wat de student moet precies moet doen. Eventueel onderverdeelt.
-> Voorbeeld:  
->  
-> 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
-> 2. Pas de functie `mijnEersteFunctie` zo aan dat aan de tekst die getoond wordt in je browser een uitroepteken wordt toegevoegd.
+>1. Schrijf je code in `index.php`
+>2. Maak een indexed array variabele _myMovies_ aan met minimaal 3 films
+>3. Toon de waarde van de 2e film in je array op het scherm met `echo`
 
 ## Eindresultaat
-
-Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
-> Voorbeeld:  
-> Als je de functie goed uitvoert wordt de volgende tekst getoond in je browser: "functie uitgevoerd"  
+Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+>The Joker
 
 ## Bronnen
-
-Een lijstje van links naar externe bronnen
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+>[W3 Schools - arrays](https://www.w3schools.com/PHP/php_arrays.asp)
