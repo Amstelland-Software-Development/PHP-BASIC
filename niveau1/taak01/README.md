@@ -1,7 +1,7 @@
 # PHP-BASIC-TAAK-01
 ## Variabelen
 ## Uitleg
-Een variabele wordt gebruikt om dingen op te slaan. Net als dat jij ook dingen opslaat in je hoofd. Als je bijvoorbeeld nooit opslaat wat bijvoorbeeld je leeftijd is of waar je woont dan zou dat heel onhandig zijn.
+Een variabele wordt gebruikt om dingen op te slaan. Net zoals jij ook dingen opslaat in je hoofd. Als je bijvoorbeeld nooit opslaat wat bijvoorbeeld je leeftijd is of waar je woont dan zou dat heel onhandig zijn.
 >
 _Een variabele heet variabele omdat de waarde kan veranderen net zoals jouw leeftijd verandert._
 > 
