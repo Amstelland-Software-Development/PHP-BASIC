@@ -1,7 +1,7 @@
 # PHP-BASIC-TAAK-02
 ## Datatypes - string
 ## Uitleg
-In een variabele kun je verschillende soorten waarden opslaan zoals een stukje tekst zoals bijvoorbeeld je naam, een heel getal zoals bijvoorbeeld je leeftijd, een decimaal getal zoals bijvoorbeeld de kosten van je telefoon abonnement. Naast tekst en cijfers heb je ook nog datatype welke handig zijn om mee te programmeren zoals true/false, null, array en objects.
+In een variabele kun je verschillende soorten waarden opslaan, zoals een stukje tekst, bijvoorbeeld je naam, een heel getal, zoals je leeftijd, een decimaal getal zoals de kosten van je telefoonabonnement. Naast tekst en cijfers heb je ook nog datatypes die handig zijn om mee te programmeren zoals true/false, null, array en objects.
 >
 >_Het soort waarde dat je opslaat (tekst, getal, decimaal, etc.) noemen we een datatype._
 >
@@ -20,11 +20,11 @@ In PHP heb je verschillende soorten datatypes namelijk:
 * Een **string** kan bestaan uit een combinatie van letters en cijfers.
 
 ## Leerdoelen
->1. [ ] Ik weet wat de verschillende datatype zijn
+>1. [ ] Ik weet wat de verschillende datatypes zijn
 >2. [ ] Ik maak een string variabele aan in PHP
 >3. [ ] Ik volg de juiste regels voor het maken van een variabele 
 >4. [ ] Ik volg de juiste regels voor het maken van een string
->5. [ ] Ik kan de waarde van een string variabele op het scherm tonen
+>5. [ ] Ik kan de waarde van een stringvariabele op het scherm tonen
 
 ## Opdracht
 
@@ -33,7 +33,7 @@ In PHP heb je verschillende soorten datatypes namelijk:
 >3. Toon de waarde van de variabele _naam_ op het scherm met `echo`
 
 ## Eindresultaat
-Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
 >jouw voornaam  
 
 ## Bronnen
