@@ -1,7 +1,7 @@
 # PHP-BASIC-TAAK-05
 ## Arrays
 ## Uitleg
-In veel gevallen is het handig als je meerdere waardes in een variabele kan opslaan. Bijvoorbeeld als je een lijst met 20 films wil tonen. Je zou dan 20 aparte variabelen kunnen maken maar het is veel handiger om dit in een array variabele te zetten. _straks moeten we misschien wel 3000 films opslaan._
+In veel gevallen is het handig als je meerdere waardes in een variabele kan opslaan. Bijvoorbeeld als je een lijst met 20 films wil tonen. Je zou dan 20 aparte variabelen kunnen maken, maar het is veel handiger om dit in een array variabele te zetten. _straks moeten we misschien wel 3000 films opslaan._
 >
 >_Een array is een speciale variabele waarin je meerdere waardes van een of meerdere datatype kan opslaan._
 >
@@ -42,7 +42,7 @@ Nu moeten we nog leren hoe we de waardes op het scherm kunnen tonen
 >3. Toon de waarde van de 2e film in je array op het scherm met `echo`
 
 ## Eindresultaat
-Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
 >The Joker
 
 ## Bronnen
