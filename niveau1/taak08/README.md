@@ -34,10 +34,10 @@ Als je de variabelen
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
->De uitkomst van je + som
->De uitkomst van je - som
+>De uitkomst van je + som  
+>De uitkomst van je - som  
 >De uitkomst van je * som  
->De uitkomst van je / som
+>De uitkomst van je / som  
 
 ## Bronnen
 >[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)

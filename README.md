@@ -23,7 +23,8 @@ Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
 >6. [ ] Ik maak variabele met verschillende datatype aan in PHP
 >7. [ ] Ik volg de juiste regels voor de verschillende datatype
 >8. [ ] Ik kan via gettype() het datatype van een variabele opvragen
->1. [ ] Ik kan variabelen en tekst samen op het scherm tonen met echo
+>1. [ ] Ik kan variabelen en tekst op het scherm tonen met de echo statement
+>1. [ ] Ik weet wat concatenation is
 >8. [ ] Ik weet wat een indexed array is
 >9. [ ] Ik maak een indexed array aan in PHP 
 >10. [ ] Ik volg de juiste regels voor het maken van een indexed array
