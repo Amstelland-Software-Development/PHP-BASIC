@@ -41,11 +41,13 @@ Nu moeten we nog leren hoe we de waardes op het scherm kunnen tonen
 
 >1. Schrijf je code in `index.php`
 >2. Maak een indexed array variabele _myMovies_ aan met minimaal 3 films
->3. Toon de waarde van de 2e film in je array op het scherm met `echo`
+>3. Toon de waardes van de array _myMovies_ in een unordered list op het scherm met `echo`
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
->The Joker
+>* Spiderman
+>* Batman
+>* The Joker
 
 ## Bronnen
 >[W3 Schools - arrays](https://www.w3schools.com/PHP/php_arrays.asp)

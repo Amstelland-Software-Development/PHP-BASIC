@@ -40,5 +40,6 @@ Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser:
 >De uitkomst van *=  
 >De uitkomst van /=  
 
+
 ## Bronnen
 >[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)

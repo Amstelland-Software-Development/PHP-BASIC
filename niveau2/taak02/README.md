@@ -35,5 +35,7 @@ Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser:
 >* item 2
 >* item 3
 
+>_Waar hierboven item 1, item 2, item 3 staat moet natuurlijk de waarde staan die jij aan de variabele hebt gegeven!_
+
 ## Bronnen
 >[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)
