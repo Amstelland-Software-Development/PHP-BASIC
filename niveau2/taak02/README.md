@@ -1,49 +1,39 @@
-# MODULENAAM-TAAK-NR
-
-> Bijvoorbeeld:  
-> PHP-Basic-Taak-01
-
-## Titel
-
-Geef de taak een pakkende titel.
-> Bijvoorbeeld:  
->
-> ## First Function
-
+# PHP-BASIC-TAAK-02
+## String operators - concatenation
 ## Uitleg
+Je hebt geleerd hoe je tekst en variabelen met elkaar kan verbinden door de string operator `.` te gebruiken.
 
-Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijk voorbeelden.
-> Voorbeeld:  
-> Functies zijn een manier om je code onder te verdelen in logische blokken. Jij kan dan bepalen wanneer het blok code dat in een functie zit wordt uitegevoerd in plaats dat alle code in een script van boven naar beneden wordt uitgevoerd.
+Naast het gebruik van `.` om tekst en variabelen aan elkaar te rijgen is er ook een andere manier.
+
+>Voorbeeld:  
+Stel je maakt een spel waar de speler steeds een item aan een lijst moet toevoegen dan kun je dit in code doen met:
+```php
+    $item = "<li>tas</li>";
+    $item = $item . "<li>bal</li>";
+```
+>_Hij moet voor een lijst ook de oude waarde van de variabele onthouden daarom staat er twee keer $item_.  
 >
->Vooral als de hoeveelheid code toeneemt is het handig om goed na te denken hoe je de code kan scheiden zodat je niet telkens dezelfde code schrijft.
->  
-> In deze les leer je hoe je een aangeleverde functie aanroept zodat de code die in die functie staat wordt uitgevoerd.
-
+>Een veel snellere (en makkelijkere) manier om dit te doen is:
+```php
+    $item = "<li>tas</li>";
+    $item .= "<li>bal</li>";
+```
+>
 ## Leerdoelen
-
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
-> Voorbeeld:
->
-> 1. [ ] Ik kan met PHP een functie aanspreken
+>1. [ ] Ik weet wat string operators zijn
+>2. [ ] Ik kan een extra tekst waarde aan een string variabele toevoegen
 
 ## Opdracht
-
-Duidelijke tekst die uitlegd wat de student moet precies moet doen. Eventueel onderverdeelt.
-> Voorbeeld:  
->  
-> 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
-> 2. Pas de functie `mijnEersteFunctie` zo aan dat aan de tekst die getoond wordt in je browser een uitroepteken wordt toegevoegd.
+>1. Schrijf je code in `index.php`
+>2. Maak een integer variabelen aan: _item_ en geef deze een eigen gekozen waarden _een string natuurlijk!_
+>3. Voeg nog 2 items toe aan de variabele _item_ door `.=` te gebruiken en toon de uitkomst in een unordered list op het scherm met `echo`
+>4. _Gebruik HTML in je `echo` statement om de uitkomst onder elkaar te tonen in plaats van naast elkaar_
 
 ## Eindresultaat
-
-Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
-> Voorbeeld:  
-> Als je de functie goed uitvoert wordt de volgende tekst getoond in je browser: "functie uitgevoerd"  
+Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+>* item 1
+>* item 2
+>* item 3
 
 ## Bronnen
-
-Een lijstje van links naar externe bronnen
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+>[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)

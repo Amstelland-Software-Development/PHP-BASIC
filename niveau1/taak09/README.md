@@ -1,33 +1,36 @@
 # PHP-BASIC-TAAK-09
-## Variabelen - concatenation
+## Variabelen - data en html combineren
 ## Uitleg
-Je hebt geleerd dat je variabelen en tekst (gewone tekst of html code) samen via `echo` op het scherm kan tonen door ze samen tussen quotes (") te zetten. In sommige gevallen krijg je niet het gewenste resultaat en moet je de verschillende stukken aan elkaar rijgen (concatenation). dit doe je door een `.` tussen de verschillende onderdelen te zetten, alles wat tekst is moet je dan tussen quotes (") zetten, de variabelen moet je _niet_ tussen quotes zetten.
+Je hebt geleerd hoe je met variabelen en tekst op het scherm kan tonen met de `echo` statement. 
+>
+Als tekst kun je willekeurige tekst gebruiken maat je kan ook html code gebruiken.
 
-_Voorbeeld:_  
->Je hebt twee variabelen `$voornaam` en `$leeftijd` op het scherm moet de volgende tekst komen te staan: Jouw naam is Tom en je bent 19 jaar oud. Dan ziet de code er als volgt uit:
+>Voorbeeld:  
+Stel je wilt drie variabelen (_voornaam1_, _voornaam2_, _voornaam3_) in een onordered list op het scherm tonen dan kun je dit doen door html aan je code toe te voegen. Begin in html eerst met het toevoegen van de `<ul></ul>` tags
+en zet tussen de tags de volgende php code:
+
 ```php
-    $voornaam = "Tom";
-    $leeftijd = 19;
-    echo "Jouw naam is " . $voornaam . " en je bent " . $leeftijd . " jaar oud.";
+    echo "<li>$voornaam1</li><li>$voornaam2</li><li>$voornaam3</li>";
 ```
->Bekijk bovenstaande code eens goed! Zie je dat er hier en daar spaties tussen de tekst en de " staan zoals na het woordje is? Als je dit niet doet komt alle tekst tegen elkaar te staan en krijg je niet het gewenste resultaat!
+>_Je kan alle html gebruiken die je wilt in een `echo` statement, doe dit wel tussen quotes (")_
 >
 ## Leerdoelen
->1. [ ] Ik weet wat concatenation is
->2. [ ] Ik kan variabelen en tekst op het scherm tonen met de echo statement
+>1. [ ] Ik kan variabelen en html op het scherm tonen met de echo statement
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
->2. Maak 2 variabelen aan: _leeftijd_ en _voornaam_ geef als waarde jouw naam en leeftijd.
->3. Toon de volgende tekst op het scherm (met het gebruik van concatenation) _Jouw naam is xxx en je bent je xxx jaar oud._
->
->_Waar hierboven xxx staat moet natuurlijk jouw echte naam en leeftijd staan!_
+>2. Maak een drie variabelen aan: _voornaam1_, _voornaam2_, _voornaam3_ en geef deze een eigen gekozen waarden _bijvoorbeeld: namen van studenten in je klas_
+>3. Toon de uitkomst in een onordered list op het scherm met `echo`
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
->Jouw naam is xxx en je bent je xxx jaar oud.  
->
-_Waar hierboven xxx staat moet natuurlijk jouw echte naam en leeftijd staan!_
+>* voornaam 1
+>* voornaam 2
+>* voornaam 3
+
+>_Waar hierboven voonaam1, voonaam2, voonaam3 staat moet natuurlijk de waarde staan die jij aan de variabelen hebt gegeven!_
 
 ## Bronnen
->[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)
+>[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
+>[W3 Schools - variabelen](https://www.w3schools.com/php/php_variables.asp)  
+>[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)  

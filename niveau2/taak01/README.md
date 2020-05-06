@@ -1,49 +1,39 @@
 # PHP-BASIC-TAAK-01
-## Arrays
+## String operators - concatenation
 ## Uitleg
-In veel gevallen is het handig als je meerdere waardes in een variabele kan opslaan. Bijvoorbeeld als je een lijst met 20 films wil tonen. Je zou dan 20 aparte variabelen kunnen maken maar het is veel handiger om dit in een array variabele te zetten. _straks moeten we misschien wel 3000 films opslaan._
->
->_Een array is een speciale variabele waarin je meerdere waardes van een of meerdere datatype kan opslaan._
->
-Er bestaan verschillende soorten arrays, De meest simpele is de nummerieke (of indexed) array. Daar gaat deze taak over.
->
-**In PHP zijn dit de regels voor het opschrijven van een array:**
-* Om PHP te vertellen dat je een variabele gaat maken moet je beginnen met een `$`.  
-* Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_ - De naam moet beginnen met een letter of een underscore (_) en is case sensitive.
-* Daarna gebruik je een `=` teken.
-* Daarna gebruik je het woord `array`
-* De waardes van de array zet je tussen `()` gescheiden door een `,`
-* En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_.
+Je hebt geleerd dat je variabelen en tekst (gewone tekst of html code) samen via `echo` op het scherm kan tonen door ze samen tussen quotes (") te zetten. In sommige gevallen krijg je niet het gewenste resultaat en moet je de verschillende stukken aan elkaar rijgen (concatenation). dit doe je door de string operator `.` te gebruiken
 
-dit ziet er in code zo uit:
+**In PHP zijn dit de regels voor het gebruik van de `.` string operator:**
+* Alles wat tekst (of html) is moet je dan tussen quotes (") zetten.
+* Om een spatie in je tekst te krijgen typ je een spatie.
+* Je variabelen moet je _niet_ tussen quotes zetten.
+* verbind de verschillende onderdelen tekst en variabelen met elkaar door er een `.` tussen te zetten.
+
+_Voorbeeld:_  
+>Je hebt twee variabelen `$voornaam` en `$leeftijd` op het scherm moet de volgende tekst komen te staan: Jouw naam is Tom en je bent 19 jaar oud. Dan ziet de code er als volgt uit:
 ```php
-    $myMovies = array("Spiderman", "Batman", "The Joker");
+    $voornaam = "Tom";
+    $leeftijd = 19;
+    echo "Jouw naam is " . $voornaam . " en je bent " . $leeftijd . " jaar oud.";
 ```
-Nu moeten we nog leren hoe we de waardes op het scherm kunnen tonen
->
-**In PHP zijn dit de regels voor het tonen van een array:**
-* Je kan de waardes uit een array opvragen via de positie (index) van de waarde
-* Een indexed array begint altijd te tellen bij 0
-* Dus als je de eerste waarde uit de array wil opvragen kun je dit zo doen:
-```php
-    echo $myMovies[0];
-```
+>_Bekijk bovenstaande code eens goed! Zie je dat er hier en daar spaties tussen de tekst en de " staan zoals na het woordje is? Als je dit niet doet komt alle tekst tegen elkaar te staan en krijg je niet het gewenste resultaat!_
 >
 ## Leerdoelen
->1. [ ] Ik weet wat een indexed array is
->2. [ ] Ik maak een indexed array aan in PHP 
->4. [ ] Ik volg de juiste regels voor het maken van een indexed array
->5. [ ] Ik kan de waarde(s) van een indexed array variabele op het scherm tonen
+>1. [ ] Ik weet wat de string operator: concatenation is
+>2. [ ] Ik kan variabelen en tekst op het scherm tonen met de echo statement en het gebruik de string operator: `.`
 
 ## Opdracht
-
 >1. Schrijf je code in `index.php`
->2. Maak een indexed array variabele _myMovies_ aan met minimaal 3 films
->3. Toon de waarde van de 2e film in je array op het scherm met `echo`
+>2. Maak 2 variabelen aan: _leeftijd_ en _voornaam_ geef als waarde jouw naam en leeftijd.
+>3. Toon de volgende tekst op het scherm (met het gebruik van concatenation) _Jouw naam is xxx en je bent je xxx jaar oud._
+>
+>_Waar hierboven xxx staat moet natuurlijk jouw echte naam en leeftijd staan!_
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
->The Joker
+>Jouw naam is xxx en je bent je xxx jaar oud.  
+>
+_Waar hierboven xxx staat moet natuurlijk jouw echte naam en leeftijd staan!_
 
 ## Bronnen
->[W3 Schools - arrays](https://www.w3schools.com/PHP/php_arrays.asp)
+>[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)
