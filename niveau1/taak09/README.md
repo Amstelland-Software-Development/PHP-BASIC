@@ -19,7 +19,7 @@ _Voorbeeld:_
 ## Opdracht
 >1. Schrijf je code in `index.php`
 >2. Maak 2 variabelen aan: _leeftijd_ en _voornaam_ geef als waarde jouw naam en leeftijd.
->3. Toon de volgende tekst op het scherm _Jouw naam is xxx en je bent je xxx jaar oud._
+>3. Toon de volgende tekst op het scherm (met het gebruik van concatenation) _Jouw naam is xxx en je bent je xxx jaar oud._
 >
 >_Waar hierboven xxx staat moet natuurlijk jouw echte naam en leeftijd staan!_
 
