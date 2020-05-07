@@ -30,8 +30,7 @@ Kijk maar eens naar de syntax van een echo statement op: https://www.w3schools.c
 >1. De opdracht is dat je elke keer dat je iets opzoekt over hoe je iets moet doen goed let op de syntax!
 
 ## Eindresultaat
-Dat je straks een goede programmeur bent en dat je goed begrijpt hoe je een opdracht aan PHP moet geven!
->0  
+>Dat je straks een goede programmeur bent en dat je goed begrijpt hoe je een opdracht aan PHP moet geven! 
 
 ## Bronnen
 >[W3 Schools - syntax](https://www.w3schools.com/PHP/php_syntax.asp)  
