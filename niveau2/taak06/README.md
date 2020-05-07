@@ -1,59 +1,42 @@
 # PHP-BASIC-TAAK-06
-## Comparison Operators
+## Variabelen - type en waarde op het scherm tonen met var_dump()
 ## Uitleg
-Bij het programmeren maken we vaak gebruik van het vergelijken van twee waardes. Bijvoorbeels als je in spel wil bepalen of iemand wel of geen punt krijgt (is het antwoord wel of niet goed?) of als je wilt bepalen wie er gewonnen heeft (heeft speler1 meer punten dan speler2?)
->
->_Compararison operators gebruik je om waardes te vergelijken_
->
-In PHP heb je verschillende soorten comparison operators namelijk:
->* is gelijk aan: `==`
->* is identiek aan _(zelfde waarde en zelfde datatype)_: `===`
->* is ongelijk aan: `!=`
->* is groter dan: `>`
->* is kleiner dan: `<`
->* is ongelijk aan: `<>`
->* is groter of gelijk aan: `>=`
->* is kleiner of gelijk aan: `<=`
->* spaceship: `<=>` - _deze wordt in een latere taak uitgelegd_
+Je hebt geleerd dat je met `gettype()` het datatype van een variabele kan opvragen. 
 
-**In PHP zijn dit de regels voor het opschrijven van een comparison operator:**
-* Je wilt `$variabele1` en `$variabele2` met elkaar vergelijken:
-* Schrijf eerst `$variabele1` op
-* Daarna schrijf je de operator op die je wilt gebruiken zoals is gelijk aan `==` 
-* Schrijf daarna `$variabele2` op
-* Om de waarde op het scherm te tonen gebruiken we `var_dump();`  
+Er zijn gevallen (bijvoorbeeld bij het testen op fouten) dat je niet alleen het datatype van een variabele wil weten maar ook zijn waarde.
 >
-Dit is hoe de code er dan uit komt te zien:
+>_Met de ingebouwde PHP functie `var_dump()` kun je het datatype en de waarde van een variabele op het scherm tonen._
+>
+**In PHP zijn dit de regels voor het gebruik van gettype():**
+* Om PHP te vertellen dat je het datatype van een variabele op het scherm wilt tonen begin je met `var_dump`.  
+* De naam van de variabele waar van je de waarde en het datatype van wilt tonen zet je tussen `()`.
+>
+Stel we hebben een variabele $voornaam met de waarde Tom en we willen weten wat het datatype van deze variabele is dan ziet de code er zo uit: 
 ```php
-    $variabele1 = 10;
-    $variabele2 = "hallo";
-
-    var_dump($variabele1 == $variabele2);
+    $voornaam = "Tom";
+    var_dump($voornaam);
 ```
->**_De output zal altijd van het datatype boolean (true of false) zijn. Een vergelijking is namelijk altijd waar of niet waar!_** 
-
+>De output van de code hierboven is: string(3) "Tom"  
+>
+>Dus wat je terug krijgt bij een string is:  
+>_datatype(aantal karakters) waarde van de string variabele_
+>
+>Bij een integer variabele met de waarde 12 krijg je dit terug:  
+>_int(12)_ 
+>
 ## Leerdoelen
->1. [ ] Ik weet wat de verschillende comparison operators zijn
->2. [ ] Ik toon een vergelijking op het scherm met var_dump()
->3. [ ] Ik volg de juiste regels voor het vergelijken van variabelen
+>1. [ ] Ik kan via var_dump() het datatype en de waarde van een variabele op het scherm tonen
 
 ## Opdracht
 
 >1. Schrijf je code in `index.php`
->2. Maak 10 variabelen aan met diverse waardes
->3. Maak een vergelijking met elk van de 8 genoemde comparison operators hierboven
->4. Toon de waarde (true/false) van de vergelijking op het scherm met `var_dump();` 
+>2. Maak een variabele _test_ aan en geef deze een door jou gekozen waarde
+>3. Toon de waarde en het datatype van de variabele _test_ op het scherm met `var_dump();`
 
 ## Eindresultaat
-Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
->Een is gelijk aan vergelijking  
->Een is identiek aan vergelijking  
->Een is ongelijk aan vergelijking  
->Een is groter dan vergelijking  
->Een is kleiner dan vergelijking  
->Een is groter of gelijk aan vergelijking
->Een is kleiner of gelijk aan vergelijking
+Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+>datatype(de waarde of het aantal karakters) de waarde als het een string is
 
 ## Bronnen
->[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)  
+>[W3 Schools - datatypes](https://www.w3schools.com/php/php_datatypes.asp)  
 >[W3 Schools - var_dump](https://www.w3schools.com/php/func_var_var_dump.asp)

@@ -1,42 +1,53 @@
 # PHP-BASIC-TAAK-05
-## Variabelen - type en waarde op het scherm tonen met var_dump()
+## Array variabele
 ## Uitleg
-Je hebt geleerd dat je met `gettype()` het datatype van een variabele kan opvragen. 
+Tot nu toe heb je steeds een variabele gemaakt met 1 waarde.
+>
+Je kan ook meerdere waardes in een variabele kan opslaan. Dit is bijvoorbeeld handig als je een lijst met 20 films wil tonen. Je zou dan 20 aparte variabelen kunnen maken maar het is veel handiger om dit in een array variabele te zetten. _straks moeten we misschien wel 3000 films opslaan._
+>
+>_Een array is een speciale variabele waarin je meerdere waardes van een of meerdere datatype kan opslaan._
+>
+Er bestaan verschillende soorten arrays, De meest simpele is de nummerieke (of indexed) array.
+>
+**In PHP zijn dit de regels voor het opschrijven van een array:**
+* Om PHP te vertellen dat je een variabele gaat maken moet je beginnen met een `$`.  
+* Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_ - De naam moet beginnen met een letter of een underscore (_) en is case sensitive.
+* Daarna gebruik je een `=` teken.
+* Daarna gebruik je het woord `array`
+* De waardes van de array zet je tussen `()` gescheiden door een `,`
+* En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_.
 
-Er zijn gevallen (bijvoorbeeld bij het testen op fouten) dat je niet alleen het datatype van een variabele wil weten maar ook zijn waarde.
->
->_Met de ingebouwde PHP functie `var_dump()` kun je het datatype en de waarde van een variabele op het scherm tonen._
->
-**In PHP zijn dit de regels voor het gebruik van gettype():**
-* Om PHP te vertellen dat je het datatype van een variabele op het scherm wilt tonen begin je met `var_dump`.  
-* De naam van de variabele waar van je de waarde en het datatype van wilt tonen zet je tussen `()`.
->
-Stel we hebben een variabele $voornaam met de waarde Tom en we willen weten wat het datatype van deze variabele is dan ziet de code er zo uit: 
+dit ziet er in code zo uit:
 ```php
-    $voornaam = "Tom";
-    var_dump($voornaam);
+    $myMovies = array("Spiderman", "Batman", "The Joker");
 ```
->De output van de code hierboven is: string(3) "Tom"  
+Nu moeten we nog leren hoe we de waardes op het scherm kunnen tonen
 >
->Dus wat je terug krijgt bij een string is:  
->_datatype(aantal karakters) waarde van de string variabele_
->
->Bij een integer variabele met de waarde 12 krijg je dit terug:  
->_int(12)_ 
+**In PHP zijn dit de regels voor het tonen van een array:**
+* Je kan de waardes uit een array opvragen via de positie [index] van de waarde
+* Een indexed array begint altijd te tellen bij 0
+* Dus als je de eerste waarde uit de array wilt opvragen kun je dit zo doen:
+```php
+    $myMovies[0];
+```
 >
 ## Leerdoelen
->1. [ ] Ik kan via var_dump() het datatype en de waarde van een variabele op het scherm tonen
+>1. [ ] Ik weet wat een indexed array is
+>2. [ ] Ik maak een indexed array aan in PHP 
+>4. [ ] Ik volg de juiste regels voor het maken van een indexed array
+>5. [ ] Ik kan de waarde(s) van een indexed array variabele op het scherm tonen
 
 ## Opdracht
 
 >1. Schrijf je code in `index.php`
->2. Maak een variabele _test_ aan en geef deze een door jou gekozen waarde
->3. Toon de waarde en het datatype van de variabele _test_ op het scherm met `var_dump();`
+>2. Maak een indexed array variabele _myMovies_ aan met minimaal 3 films
+>3. Toon de waardes van de array _myMovies_ in een unordered list op het scherm met `echo`
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
->datatype(de waarde of het aantal karakters) de waarde als het een string is
+>* Spiderman
+>* Batman
+>* The Joker
 
 ## Bronnen
->[W3 Schools - datatypes](https://www.w3schools.com/php/php_datatypes.asp)  
->[W3 Schools - var_dump](https://www.w3schools.com/php/func_var_var_dump.asp)
+>[W3 Schools - arrays](https://www.w3schools.com/PHP/php_arrays.asp)

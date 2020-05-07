@@ -1,53 +1,59 @@
 # PHP-BASIC-TAAK-04
-## Array variabele
+## Increment Operators
 ## Uitleg
-Tot nu toe heb je steeds een variabele gemaakt met 1 waarde.
->
-Je kan ook meerdere waardes in een variabele kan opslaan. Dit is bijvoorbeeld handig als je een lijst met 20 films wil tonen. Je zou dan 20 aparte variabelen kunnen maken maar het is veel handiger om dit in een array variabele te zetten. _straks moeten we misschien wel 3000 films opslaan._
->
->_Een array is een speciale variabele waarin je meerdere waardes van een of meerdere datatype kan opslaan._
->
-Er bestaan verschillende soorten arrays, De meest simpele is de nummerieke (of indexed) array.
->
-**In PHP zijn dit de regels voor het opschrijven van een array:**
-* Om PHP te vertellen dat je een variabele gaat maken moet je beginnen met een `$`.  
-* Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_ - De naam moet beginnen met een letter of een underscore (_) en is case sensitive.
-* Daarna gebruik je een `=` teken.
-* Daarna gebruik je het woord `array`
-* De waardes van de array zet je tussen `()` gescheiden door een `,`
-* En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_.
+Je hebt geleerd hoe je met variabelen kan rekenen door het gebruik van Arithmic Operators (+ - * / %) en hoe je een waarde bij een variabele kan optellen door het gebruik van Assignment Operators (+= -= *= /= %=)
 
-dit ziet er in code zo uit:
+Bij het maken van een applicatie komt het vaak voor dat je een waarde van een variabele wilt vergroten of verkleinen met 1.
+
+>Voorbeeld:  
+Stel je maakt een spel waar de score steeds 1 hoger moet worden als de speler een punt scoort zou je dit kunnen doen met de volgende code:
 ```php
-    $myMovies = array("Spiderman", "Batman", "The Joker");
+    $score = $score + 1;
 ```
-Nu moeten we nog leren hoe we de waardes op het scherm kunnen tonen
+>Of met:
+```php
+    $score += 1;
+```
+>Een veel snellere (en duidelijkere) manier om dit te doen is:
+```php
+    $score++;
+```
 >
-**In PHP zijn dit de regels voor het tonen van een array:**
-* Je kan de waardes uit een array opvragen via de positie [index] van de waarde
-* Een indexed array begint altijd te tellen bij 0
-* Dus als je de eerste waarde uit de array wilt opvragen kun je dit zo doen:
+Als je een variabele met 1 wilt:
+* verhogen gebruik je `$variabele++` of `++$variabele`
+* verlagen gebruik je `$variabele--` of `--$variabele`
+
+>_zoals je hierboven ziet kan de ++ of de -- voor of na de variabele staan!_  
+>Dit is het verschil:
 ```php
-    $myMovies[0];
+    $score = 10;
+    echo $score++;
 ```
+> Toont 10 op je scherm
+```php
+    $score = 10;
+    echo ++$score;
+```
+> Toont 11 op je scherm
+>
+_Voor nu hoef je alleen te onthouden wat het verschil is als je de ++ of -- voor of na de variabele zet, later met meer uitleg zal het duidelijker worden!_
+
 >
 ## Leerdoelen
->1. [ ] Ik weet wat een indexed array is
->2. [ ] Ik maak een indexed array aan in PHP 
->4. [ ] Ik volg de juiste regels voor het maken van een indexed array
->5. [ ] Ik kan de waarde(s) van een indexed array variabele op het scherm tonen
+>1. [ ] Ik weet wat increment operators zijn
+>2. [ ] Ik kan de waarde van een variabele veranderen met een increment operator
 
 ## Opdracht
-
 >1. Schrijf je code in `index.php`
->2. Maak een indexed array variabele _myMovies_ aan met minimaal 3 films
->3. Toon de waardes van de array _myMovies_ in een unordered list op het scherm met `echo`
+>2. Maak een integer variabelen aan: _getal1_ en geef deze een eigen gekozen waarden _een getal natuurlijk!_
+>3. Pas de waarde van de variabele _getal1_ aan door `++`, `--`  voor de variabele te gebruiken (dus ++$variabele;) en toon de uitkomst op het scherm met `echo`
+>4. _Gebruik HTML in je `echo` statement om de uitkomst onder elkaar te tonen in plaats van naast elkaar_
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
->* Spiderman
->* Batman
->* The Joker
+>De uitkomst van ++  
+>De uitkomst van --   
+
 
 ## Bronnen
->[W3 Schools - arrays](https://www.w3schools.com/PHP/php_arrays.asp)
+>[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)
