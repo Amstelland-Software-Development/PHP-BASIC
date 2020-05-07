@@ -1,4 +1,4 @@
-# PHP-BASIC-TAAK-06
+# PHP-BASIC-TAAK-11
 ## Variabelen - type en waarde op het scherm tonen met var_dump()
 ## Uitleg
 Je hebt geleerd dat je met `gettype()` het datatype van een variabele kan opvragen. 
@@ -10,6 +10,8 @@ Er zijn gevallen (bijvoorbeeld bij het testen op fouten) dat je niet alleen het 
 **In PHP zijn dit de regels voor het gebruik van gettype():**
 * Om PHP te vertellen dat je het datatype van een variabele op het scherm wilt tonen begin je met `var_dump`.  
 * De naam van de variabele waar van je de waarde en het datatype van wilt tonen zet je tussen `()`.
+>
+>_de syntax is: `var_dump(var1, var2, ...);`_
 >
 Stel we hebben een variabele $voornaam met de waarde Tom en we willen weten wat het datatype van deze variabele is dan ziet de code er zo uit: 
 ```php

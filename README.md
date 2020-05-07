@@ -14,19 +14,20 @@ Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
 >* PHP is een server-side taal. Om PHP te kunnen gebruiken heb je een server nodig zoals XAMPP
 
 ## Leerdoelen
-
+>1. [ ] Ik weet wat syntax is
+>2. [ ] Ik volg de juiste regels bij het schrijven van code
+>3. [ ] Ik ken (een deel van) de verschillende karakters die in PHP voorkomen
 >1. [ ] Ik weet wat een variabele is
->2. [ ] Ik maak een variabele aan in PHP
->3. [ ] Ik volg de juiste regels voor het maken van een variabele
+>2. [ ] Ik kan volgens de juiste regels een variabele maken
 >4. [ ] Ik kan de waarde van een variabele op het scherm tonen
 >5. [ ] Ik weet wat de verschillende datatype zijn
->6. [ ] Ik maak variabele met verschillende datatype aan in PHP
+>6. [ ] Ik kan variabele met verschillende datatype maken
 >7. [ ] Ik volg de juiste regels voor de verschillende datatype
 >8. [ ] Ik weet wat gettype() is
 >1. [ ] Ik kan variabelen en tekst op het scherm tonen met de echo statement
 >1. [ ] Ik weet wat string operators zijn
 >8. [ ] Ik weet wat een indexed array is
->9. [ ] Ik maak een indexed array aan in PHP 
+>9. [ ] Ik kan een indexed array maken
 >10. [ ] Ik volg de juiste regels voor het maken van een indexed array
 >11. [ ] Ik kan de waarde(s) van een indexed array variabele op het scherm tonen
 >>8. [ ] Ik weet wat var_dump() is

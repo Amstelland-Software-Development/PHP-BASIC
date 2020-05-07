@@ -5,7 +5,7 @@ Een variabele wordt gebruikt om dingen op te slaan, zoals jij ook dingen opslaat
 >
 _Een variabele heet variabele omdat de waarde kan veranderen net zoals jouw leeftijd verandert._
 > 
-Hoe jij dingen onthoudt bepaal je zelf. Een programeertaal moet je vertellen hoe hij iets moet onthouden, dit gaat volgens vaste regels _anders snapt hij er niks van_.
+Hoe jij dingen onthoudt bepaal je zelf. Een programeertaal moet je vertellen hoe hij iets moet onthouden, dit gaat volgens vaste regels (syntax) _anders snapt hij er niks van_.
 
 **In PHP zijn dit de regels voor het aanmaken van een variabele:**
 * Om PHP te vertellen dat je een variabele gaat maken, moet je beginnen met een `$`.  

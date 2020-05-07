@@ -1,4 +1,4 @@
-# PHP-BASIC-TAAK-01
+# PHP-BASIC-TAAK-09
 ## String operators - concatenation
 ## Uitleg
 Je hebt geleerd dat je variabelen en tekst (gewone tekst of html code) samen via `echo` op het scherm kan tonen door ze samen tussen quotes (") te zetten. In sommige gevallen krijg je niet het gewenste resultaat en moet je de verschillende stukken aan elkaar rijgen (concatenation). dit doe je door de string operator `.` te gebruiken

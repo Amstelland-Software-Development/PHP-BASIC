@@ -1,4 +1,4 @@
-# PHP-BASIC-TAAK-08
+# PHP-BASIC-TAAK-01
 ## Arithmetic Operators
 ## Uitleg
 Een van de handelingen die je in een applicatie wil kunnen gebruiken is rekenen. Bijvoorbeeld om in een webwinkel de prijs te berekenen als iemand niet 1 maar 2 producten heeft besteld.

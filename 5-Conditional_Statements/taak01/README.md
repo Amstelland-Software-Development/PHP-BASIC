@@ -1,4 +1,4 @@
-# PHP-BASIC-TAAK-06
+# PHP-BASIC-TAAK-01
 ## Comparison Operators
 ## Uitleg
 Bij het programmeren maken we vaak gebruik van het vergelijken van twee waardes. Bijvoorbeels als je in spel wil bepalen of iemand wel of geen punt krijgt (is het antwoord wel of niet goed?) of als je wilt bepalen wie er gewonnen heeft (heeft speler1 meer punten dan speler2?)

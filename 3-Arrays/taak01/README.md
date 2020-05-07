@@ -16,7 +16,7 @@ Er bestaan verschillende soorten arrays, De meest simpele is de nummerieke (of i
 * Daarna gebruik je het woord `array`
 * De waardes van de array zet je tussen `()` gescheiden door een `,`
 * En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_.
-
+>
 dit ziet er in code zo uit:
 ```php
     $myMovies = array("Spiderman", "Batman", "The Joker");

@@ -1,7 +1,7 @@
 # PHP-BASIC-TAAK-01
 ## Syntax
 ## Uitleg
-Tegen computers kan je niet zoals bij mensen op heel veel verschillende manieren iets zeggen. Je moet duidelijke taal gebruiken!!
+Tegen computers kan je _niet_ zoals tegen mensen op heel veel verschillende manieren iets zeggen. Je moet tegen een computer duidelijke taal gebruiken!!
 >
 >_Als je niet de juiste taal gebruikt snapt PHP niet wat je bedoelt!._
 > 
@@ -21,7 +21,7 @@ Bij veel opdrachten die je aan PHP geeft moet je een bepaalde waarde meegeven. A
 Kijk maar eens naar de syntax van een echo statement op: https://www.w3schools.com/php/func_string_echo.asp
 >
 ## Leerdoelen
->1. [ ] Ik weet wat een syntax is
+>1. [ ] Ik weet wat syntax is
 >2. [ ] Ik volg de juiste regels bij het schrijven van code
 >3. [ ] Ik ken (een deel van) de verschillende karakters die in PHP voorkomen
 

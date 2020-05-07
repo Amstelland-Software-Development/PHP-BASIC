@@ -1,4 +1,4 @@
-# PHP-BASIC-TAAK-09
+# PHP-BASIC-TAAK-08
 ## Variabelen - data en html combineren
 ## Uitleg
 Je hebt geleerd hoe je met variabelen en tekst op het scherm kan tonen met de `echo` statement. 

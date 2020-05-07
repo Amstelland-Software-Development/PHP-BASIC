@@ -1,4 +1,4 @@
-# PHP-BASIC-TAAK-06
+# PHP-BASIC-TAAK-02
 ## Conditional statement - If
 ## Uitleg
 Je hebt geleerd wat comparison operators zijn en dat je met `var_dump();` op het scherm kan tonen of een vergelijking tussen twee variabelen true (waar) of false (onwaar) is.

@@ -1,4 +1,4 @@
-# PHP-BASIC-TAAK-03
+# PHP-BASIC-TAAK-02
 ## Assignment Operators
 ## Uitleg
 Je hebt geleerd hoe je met variabelen kan rekenen door het gebruik van Arithmic Operators (+ - * /).

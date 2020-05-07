@@ -2,7 +2,7 @@
 ## Datatypes - tonen op het scherm met gettype()
 ## Uitleg
 Je weet nu uit welke verschillende datatype een variabele kan bestaan. 
-Er zijn momenten dat je wil checken wat het datatype van een variabele is dit doe je met de ingebouwde PHP functie gettype();
+Er zijn momenten dat je wil checken wat het datatype van een variabele is dit doe je met de ingebouwde PHP functie `gettype();`
 >
 >_met `gettype()` kan je het datatype van een variabele opvragen_
 >
@@ -10,13 +10,15 @@ Er zijn momenten dat je wil checken wat het datatype van een variabele is dit do
 * Om PHP te vertellen dat je het datatype van een variabele op het scherm wilt tonen begin je met `gettype`.  
 * De naam van de variabele waar van je het datatype wilt tonen zet je tussen `()`.
 >
-Stel we hebben een variabele $voornaam met de waarde Tom en we willen weten wat het datatype van deze variabele is dan ziet de code er zo uit: 
+>_de syntax is: `gettype(variable);`_
+>
+Stel we hebben een variabele `$voornaam` met de waarde Tom en we willen weten wat het datatype van deze variabele is dan ziet de code er zo uit: 
 ```php
     $voornaam = "Tom";
     echo gettype($voornaam);
 ```
 ## Leerdoelen
->1. [ ] Ik kan via gettype() het datatype van een variabele opvragen
+>1. [ ] Ik weet wat gettype() is
 
 ## Opdracht
 

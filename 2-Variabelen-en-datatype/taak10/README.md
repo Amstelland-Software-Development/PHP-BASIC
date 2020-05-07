@@ -1,4 +1,4 @@
-# PHP-BASIC-TAAK-02
+# PHP-BASIC-TAAK-10
 ## String operators - concatenation
 ## Uitleg
 Je hebt geleerd hoe je tekst en variabelen met elkaar kan verbinden door de string operator `.` te gebruiken.
