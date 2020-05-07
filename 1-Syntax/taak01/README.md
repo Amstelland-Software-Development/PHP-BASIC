@@ -1,44 +1,37 @@
 # PHP-BASIC-TAAK-01
 ## Syntax
 ## Uitleg
-Een variabele wordt gebruikt om dingen op te slaan, zoals jij ook dingen opslaat in je hoofd. Als je bijvoorbeeld nooit opslaat wat bijvoorbeeld je leeftijd is of waar je woont dan zou dat heel onhandig zijn.
+Tegen computers kan je niet zoals bij mensen op heel veel verschillende manieren iets zeggen. Je moet duidelijke taal gebruiken!!
 >
-_Een variabele heet variabele omdat de waarde kan veranderen net zoals jouw leeftijd verandert._
+>_Als je niet de juiste taal gebruikt snapt PHP niet wat je bedoelt!._
 > 
-Hoe jij dingen onthoudt bepaal je zelf. Een programeertaal moet je vertellen hoe hij iets moet onthouden, dit gaat volgens vaste regels _anders snapt hij er niks van_.
+In de komende taken ga je verschillende opdrachten leren die je aan PHP kan geven. Doe je dit niet volgens de juiste regels dan werkt het echt niet! Leer deze en de regels die in de taken genoemd worden goed uit je hoofd!
 
-**In PHP zijn dit de regels voor het aanmaken van een variabele:**
-* Om PHP te vertellen dat je een variabele gaat maken, moet je beginnen met een `$`.  
-* Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_ - De naam moet beginnen met een letter of een underscore (_) en is case sensitive.
-* Daarna gebruik je een `=` teken.
-* Daarna zet je de waarde neer die je wilt onthouden.
-* En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_.
->_Voorbeeld:_  
->Stel je bouwt in php een spel. In dit spel moet de score van de speler worden bijgehouden. De enige manier om dit te doen is door een variabele aan te maken met een logische naam zoals bijvoorbeeld $score. 
+**De verschillende karakters die gebruikt worden in PHP (en andere talen)**
+>* Om het begin van PHP code aan te geven gebruik je `<?php`
+>* Om het einde van PHP code aan te geven gebruik je `?>`
+>* Aan het einde van een regel code gebruik je altijd een `;`
+>* Ronde haakjes `()` worden gebruikt om een (voor)waarde in te zetten.
+>* Accolades `{}` worden gebruikt om het begin en het einde van een codeblok aan te geven.
+>* Rechte haakjes `[]` worden gebruikt om een index aan te geven
+>* Variabelen beginnen altijd met een `$` gevolgd door een letter of underscore `_`
 >
->* Als je een spel begint is de score altijd 0
->* Als je het volgens de regels hierboven opschrijft ziet de code er zo uit: `$score = 0;`
->* Vergeet niet dat PHP-code tussen `<?php //de code ?>` tags staat
->* Om php op het scherm te tonen gebruik je het commando `echo`  gevolgd door een spatie en de waarde die je wilt tonen dus `<?php echo waarde ?>`
-
+Bij veel opdrachten die je aan PHP geeft moet je een bepaalde waarde meegeven. Als je op internet bijvoorbeeld in W3Schools zoekt hoe je een opdracht moet uitvoeren. Staat daar altijd de syntax bij, lees deze goed!  
+>
+Kijk maar eens naar de syntax van een echo statement op: https://www.w3schools.com/php/func_string_echo.asp
+>
 ## Leerdoelen
->1. [ ] Ik weet wat een variabele is
->2. [ ] Ik maak een variabele aan in PHP
->3. [ ] Ik volg de juiste regels voor het maken van een variabele
->4. [ ] Ik kan de waarde van een variabele op het scherm tonen
+>1. [ ] Ik weet wat een syntax is
+>2. [ ] Ik volg de juiste regels bij het schrijven van code
+>3. [ ] Ik ken (een deel van) de verschillende karakters die in PHP voorkomen
 
 ## Opdracht
 
->1. Schrijf je code in `index.php`
->2. Maak een variabele _score_ aan met de waarde 0
->3. Toon de waarde van de variabele _score_ op het scherm met `echo`
+>1. De opdracht is dat je elke keer dat je iets opzoekt over hoe je iets moet doen goed let op de syntax!
 
 ## Eindresultaat
-Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+Dat je straks een goede programmeur bent en dat je goed begrijpt hoe je een opdracht aan PHP moet geven!
 >0  
 
 ## Bronnen
->[W3 Schools - php](https://www.w3schools.com/PHP/default.asp)  
->[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
->[W3 Schools - variabelen](https://www.w3schools.com/php/php_variables.asp)  
->[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)  
+>[W3 Schools - syntax](https://www.w3schools.com/PHP/php_syntax.asp)  
