@@ -20,6 +20,11 @@ Er bestaan verschillende soorten arrays, De meest simpele is de nummerieke (of i
 dit ziet er in code zo uit:
 ```php
     $myMovies = array("Spiderman", "Batman", "The Joker");
+    
+    //vanaf php versie 5.6 mag je ook dit doen:
+    $myMovies = ["Spiderman", "Batman", "The Joker"];
+
+    //FYI: jij gebruikt waarschijnlijk versie 7.X
 ```
 Nu moeten we nog leren hoe we de waardes op het scherm kunnen tonen
 >
