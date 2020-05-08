@@ -12,18 +12,18 @@ Stel je maakt een spel en je moet bepalen of de speler het juiste antwoord heeft
 >_In PHP gebruik je conditional statements om waardes te vergelijken_  
 >
 In PHP heb je twee verschillende soorten conditional statements namelijk:
-* `if, else, elseif`  
-  * Gebruik je om een of meerdere waardes te vergelijken 
+* `if, elseif, else`  
+  * Gebruik je om èèn of meerdere waardes te vergelijken 
   * De uitkomst van de vergelijking (true, false) bepaalt welk stuk code er uitgevoerd moet worden
 * `switch`  
-  * Gebruik je om een waarde te vergelijken tegenover meerdere mogelijke overeenkomsten
+  * Gebruik je om èèn waarde te vergelijken tegenover meerdere mogelijke overeenkomsten
 
 We beginnen simpel met een `if` statement:   
 
 **In PHP zijn dit de regels voor het opschrijven van een if statement:** 
 >_De syntax van een if statement:_  
 >`if (condition) {`  
-  >`code to be executed if condition is true;`  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`code to be executed if condition is true;`  
 >`}`
  
 >Nu gaan we vergelijken of `$variabele1` gelijk (==) is aan `$variabele2` als de vergelijking waar (true) is tonen we de volgende tekst op het scherm _`de vergelijking is waar!`_.
@@ -54,6 +54,8 @@ if($variabele1 == $variabele2) {
     echo "de vergelijking is waar!";
 }
 ```
+>_De meest gemaakte fout bij een `if` statement is dat de vergelijking met èèn `=` wordt geschreven `($variabele1 = $variabele2)` in plaats van `($variabele1 == $variabele2)`. Let daar goed op want je code gaat niet werken als je het fout doet!_
+>
 ## Leerdoelen
 >1. [ ] Ik weet wat de verschillende conditional statements zijn
 >2. [ ] ik weet wat een if statement is

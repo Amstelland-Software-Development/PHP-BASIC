@@ -1,7 +1,7 @@
 # PHP-BASIC-TAAK-03
-## Conditional statement - If, Else
+## Conditional statement - If, else
 ## Uitleg
-In de vorige taak hebben we een if statement gemaakt. Bij de opdracht heb je als het goed is de volgende vergelijkingen gemaakt:
+In de vorige taak hebben we een `if` statement gemaakt. Bij de opdracht heb je als het goed is de volgende vergelijkingen gemaakt:
 
 >* is test1 gelijk aan test2?  - _echo "gelijk"_
 >* is test1 ongelijk aan test2? - _echo "ongelijk"_
@@ -21,10 +21,10 @@ _Dus als je goed kijkt waren 4 van de 7 vergelijkingen waar (true)._ Als dat het
 >
 >_De syntax van een if else statement:_  
 >`if (condition) {`  
-> `code to be executed if condition is true;`  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`code to be executed if condition is true;`  
 >`}`
 >`else {`  
-  >`code to be executed if condition is false;`  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`code to be executed if condition is false;`  
 >`}`
 
 Je weet hoe je het eerste gedeelte van de code schrijven:
