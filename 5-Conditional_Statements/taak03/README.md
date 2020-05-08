@@ -58,20 +58,18 @@ _Let goed op de schrijfwijze, waar staan haakjes en wat staat er tussen de haakj
 
 ## Opdracht
 
-## Opdracht
-
 >1. Schrijf je code in `index.php`
 >2. Maak de volgende variabelen aan  
 >* _test1_ met de waarde: 3
 >* _test2_ met de waarde: 6
 >3. Maak de volgende vergelijkingen in een `if else` statement en toon de bijbehorende tekst met `echo` op het scherm.
 >* is test1 gelijk aan test2?  - true: _echo "gelijk"_ - false: echo _"niet gelijk"_
->* is test1 ongelijk aan test2? - _bedenk zelf de teksten voor true en false_
->* is test1 identiek aan test2? - _bedenk zelf de teksten voor true en false_
->* is test1 groter dan test2? - _bedenk zelf de teksten voor true en false_
->* is test1 kleiner dan test2? -_bedenk zelf de teksten voor true en false_
->* is test1 groter of gelijk aan test2? - _bedenk zelf de teksten voor true en false_
->* is test1 kleiner of gelijk aan test2? - _bedenk zelf de teksten voor true en false_
+>* is test1 ongelijk aan test2? - _bedenk zelf de tekst voor true en false_
+>* is test1 identiek aan test2? - _bedenk zelf de tekst voor true en false_
+>* is test1 groter dan test2? - _bedenk zelf de tekst voor true en false_
+>* is test1 kleiner dan test2? -_bedenk zelf de tekst voor true en false_
+>* is test1 groter of gelijk aan test2? - _bedenk zelf de tekst voor true en false_
+>* is test1 kleiner of gelijk aan test2? - _bedenk zelf de tekst voor true en false_
 >4. _Gebruik HTML in je `echo` statement om de uitkomst onder elkaar te tonen in plaats van naast elkaar_
 
 ## Eindresultaat
