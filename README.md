@@ -30,7 +30,18 @@ Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
 >9. [ ] Ik kan een indexed array maken
 >10. [ ] Ik volg de juiste regels voor het maken van een indexed array
 >11. [ ] Ik kan de waarde(s) van een indexed array variabele op het scherm tonen
->>8. [ ] Ik weet wat var_dump() is
+>8. [ ] Ik weet wat var_dump() is
+>1. [ ] Ik weet wat de verschillende comparison operators zijn
+>2. [ ] Ik toon een vergelijking op het scherm met var_dump()
+>3. [ ] Ik volg de juiste regels voor het vergelijken van variabelen
+>1. [ ] Ik weet wat de verschillende conditional statements zijn
+>2. [ ] ik weet wat een if, elseif, else statement is
+>4. [ ] Ik volg de juiste regels voor het schrijven van een if, elseif, else statement
+>1. [ ] ik weet wat een switch statement is
+>3. [ ] Ik volg de juiste regels voor het schrijven van een switch statement
+>1. [ ] Ik weet wat functies zijn
+>2. [ ] Ik volg de juiste regels bij het schrijven van functies
+>3. [ ] Ik kan een functie aanroepen
 
 ## Bronnen
 >[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
