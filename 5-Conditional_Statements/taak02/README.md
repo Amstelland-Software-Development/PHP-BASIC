@@ -56,8 +56,9 @@ if($variabele1 == $variabele2) {
 ```
 ## Leerdoelen
 >1. [ ] Ik weet wat de verschillende conditional statements zijn
->2. [ ] Ik maak een if statement met verschillende vergelijkingen
->3. [ ] Ik volg de juiste regels voor het schrijven van een if statement
+>2. [ ] ik weet wat een if statement is
+>3. [ ] Ik maak een if statement met verschillende vergelijkingen
+>4. [ ] Ik volg de juiste regels voor het schrijven van een if statement
 
 ## Opdracht
 
