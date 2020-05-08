@@ -63,8 +63,8 @@ if($variabele1 == $variabele2) {
 
 >1. Schrijf je code in `index.php`
 >2. Maak de volgende variabelen aan  
->* test1 met de waarde: 10
->* test2 met de waarde: 6
+>* _test1_ met de waarde: 10
+>* _test2_ met de waarde: 6
 >3. Maak de volgende vergelijkingen in een `if` statement en toon de bijbehorende tekst met `echo` op het scherm als de voorwaarde waar is.
 >* is test1 gelijk aan test2?  - _echo "gelijk"_
 >* is test1 ongelijk aan test2? - _echo "ongelijk"_

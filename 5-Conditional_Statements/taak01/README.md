@@ -40,19 +40,30 @@ Dit is hoe de code er dan uit komt te zien:
 ## Opdracht
 
 >1. Schrijf je code in `index.php`
->2. Maak 2 variabelen aan en geef deze een waarde
->3. Maak een vergelijking met elk van de genoemde comparison operators hierboven (behalve de spaceship operator)
+>2. Maak de volgende variabelen aan  
+>* _test1_ met de waarde: 12
+>* _test2_ met de waarde: "gewoon tekst"
+>3. Maak een vergelijking met de volgende comparison operators
+>* is gelijk aan: `==`
+>* is identiek aan _(zelfde waarde en zelfde datatype)_: `===`
+>* is ongelijk aan: `!=`
+>* is groter dan: `>`
+>* is kleiner dan: `<`
+>* is ongelijk aan: `<>`
+>* is groter of gelijk aan: `>=`
+>* is kleiner of gelijk aan: `<=`
 >4. Toon de waarde (true/false) van de vergelijking op het scherm met `var_dump();` 
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
->Een is gelijk aan vergelijking  
->Een is identiek aan vergelijking  
->Een is ongelijk aan vergelijking  
->Een is groter dan vergelijking  
->Een is kleiner dan vergelijking  
->Een is groter of gelijk aan vergelijking
->Een is kleiner of gelijk aan vergelijking
+>bool(false)  
+>bool(false)  
+>bool(true)  
+>bool(true)  
+>bool(false)  
+>bool(false)  
+>bool(true)  
+>bool(false)  
 
 ## Bronnen
 >[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)  
