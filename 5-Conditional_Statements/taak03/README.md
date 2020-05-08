@@ -18,20 +18,16 @@ In PHP heb je twee verschillende soorten conditional statements namelijk:
 * `switch`  
   * Gebruik je om een waarde te vergelijken tegenover meerdere mogelijke overeenkomsten
 
-We beginnen simpel met een `if` statement:   
-
-**In PHP zijn dit de regels voor het opschrijven van een if statement:** 
->_De syntax van een if statement:_  
->`if (condition) {`  
-  >`code to be executed if condition is true;`  
->`}`
- 
->Nu gaan we vergelijken of `$variabele1` gelijk (==) is aan `$variabele2` als de vergelijking waar (true) is tonen we de volgende tekst op het scherm _`de vergelijking is waar!`_.
+We beginnen simpel met een `if` statement:  
+>We gaan vergelijken of `$variabele1` gelijk (==) is aan `$variabele2` als de vergelijking waar (true) is tonen we de volgende tekst op het scherm _`de vergelijking is waar!`_.
 * Eerst moeten we de variabelen aanmaken:
 ```php
     $variabele1 = 10;
     $variabele2 = 10;
-``` 
+```  
+
+**In PHP zijn dit de regels voor het opschrijven van een if statement:**  
+
 * Schrijf voor de vergelijking eerst `if()` op -> _PHP begrijpt nu dat je een vergelijking wil maken_
 * Schrijf tussen de `()` de vergelijking die je wilt maken op:  
 `$variabele1 == $variabele2` -> _PHP verwacht de vergelijking tussen de `()` na de if, anders snapt hij het niet!_  
@@ -43,7 +39,18 @@ if($variabele1 == $variabele2)
 * PHP zal als de vergelijking true (waar) is doorgaan en verwacht een `{`
 * Op de regel daarna verwacht PHP de code die hij moet uitvoeren:  
 `echo "de vergelijking is waar!";`
-* Om aan PHP te vertellen dat we aan het einde gekomen zijn van de code die hij moet uitvoeren als de vergelijking waar is sluiten we af met een `}`  
+* Om aan PHP te vertellen dat we aan het einde gekomen zijn van de code die hij moet uitvoeren ald de vergelijking waar is sluiten we af met een `}`  
+>
+> De syntax van een if statement:  
+```php
+if (condition) {
+  code to be executed if condition is true;
+} 
+```
+
+if (condition) {
+  code to be executed if condition is true;
+} 
 >
 Dit is hoe de gehele code er uit moet zien:
 ```php
@@ -54,36 +61,32 @@ if($variabele1 == $variabele2) {
     echo "de vergelijking is waar!";
 }
 ```
+
+
+
 ## Leerdoelen
->1. [ ] Ik weet wat de verschillende conditional statements zijn
->2. [ ] Ik maak een if statement met verschillende vergelijkingen
->3. [ ] Ik volg de juiste regels voor het schrijven van een if statement
+>1. [ ] Ik weet wat de verschillende comparison operators zijn
+>2. [ ] Ik toon een vergelijking op het scherm met var_dump()
+>3. [ ] Ik volg de juiste regels voor het vergelijken van variabelen
 
 ## Opdracht
 
 >1. Schrijf je code in `index.php`
->2. Maak de volgende variabelen aan  
->* test1 met de waarde: 10
->* test2 met de waarde: 6
->3. Maak de volgende vergelijkingen in een `if` statement en toon de bijbehorende tekst met `echo` op het scherm als de voorwaarde waar is.
->* is test1 gelijk aan test2?  - _echo "gelijk"_
->* is test1 ongelijk aan test2? - _echo "ongelijk"_
->* is test1 identiek aan test2? - _echo "identiek"_
->* is test1 groter dan test2? - _echo "test1 is groter dan test2"_
->* is test1 kleiner dan test2? - _echo "test1 is kleiner dan test2"_
->* is test1 groter of gelijk aan test2? - _echo "test1 is groter of gelijk aan test2"_
->* is test1 kleiner of gelijk aan test2? - _echo "test1 is kleiner of gelijk aan test2"_
->4. _Gebruik HTML in je `echo` statement om de uitkomst onder elkaar te tonen in plaats van naast elkaar_
-
+>2. Maak 10 variabelen aan met diverse waardes
+>3. Maak een vergelijking met elk van de 8 genoemde comparison operators hierboven
+>4. Toon de waarde (true/false) van de vergelijking op het scherm met `var_dump();` 
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
->ongelijk  
->identiek  
->test1 is groter dan test2  
->test1 is groter of gelijk aan test2  
+>Een is gelijk aan vergelijking  
+>Een is identiek aan vergelijking  
+>Een is ongelijk aan vergelijking  
+>Een is groter dan vergelijking  
+>Een is kleiner dan vergelijking  
+>Een is groter of gelijk aan vergelijking
+>Een is kleiner of gelijk aan vergelijking
 
 ## Bronnen
 >[Jaap vd Veen - statements](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-2-inleiding-statements/)  
 >[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)  
->[W3 Schools - if else](https://www.w3schools.com/php/php_if_else.asp)
+>[W3 Schools - var_dump](https://www.w3schools.com/php/func_var_var_dump.asp)

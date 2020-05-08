@@ -40,8 +40,8 @@ Dit is hoe de code er dan uit komt te zien:
 ## Opdracht
 
 >1. Schrijf je code in `index.php`
->2. Maak 10 variabelen aan met diverse waardes
->3. Maak een vergelijking met elk van de 8 genoemde comparison operators hierboven
+>2. Maak 2 variabelen aan en geef deze een waarde
+>3. Maak een vergelijking met elk van de genoemde comparison operators hierboven (behalve de spaceship operator)
 >4. Toon de waarde (true/false) van de vergelijking op het scherm met `var_dump();` 
 
 ## Eindresultaat
