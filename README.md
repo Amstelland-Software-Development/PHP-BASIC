@@ -37,6 +37,9 @@ Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
 >1. [ ] Ik weet wat de verschillende conditional statements zijn
 >2. [ ] ik weet wat een if, elseif, else statement is
 >4. [ ] Ik volg de juiste regels voor het schrijven van een if, elseif, else statement
+>1. [ ] ik weet wat logical operators zijn
+>2. [ ] Ik gebruik logical operators in een conditional statement
+>3. [ ] Ik volg de juiste regels voor het schrijven van een logical operator
 >1. [ ] ik weet wat een switch statement is
 >3. [ ] Ik volg de juiste regels voor het schrijven van een switch statement
 >1. [ ] Ik weet wat functies zijn
