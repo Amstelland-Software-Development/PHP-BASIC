@@ -50,7 +50,18 @@ Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
 >3. [ ] Ik kan include en require gebruiken
 
 ## Bronnen
+>[W3 Schools - syntax](https://www.w3schools.com/PHP/php_syntax.asp)  
 >[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
 >[W3 Schools - variabelen](https://www.w3schools.com/php/php_variables.asp)  
 >[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)  
->[W3 Schools - datatypes](https://www.w3schools.com/PHP/php_datatypes.asp)
+>[W3 Schools - datatypes](https://www.w3schools.com/PHP/php_datatypes.asp)  
+>[W3 Schools - gettype](https://www.w3schools.com/php/func_var_gettype.asp)  
+>[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)  
+>[W3 Schools - var_dump](https://www.w3schools.com/php/func_var_var_dump.asp)  
+>[W3 Schools - arrays](https://www.w3schools.com/PHP/php_arrays.asp)  
+>[Jaap vd Veen - statements](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-2-inleiding-statements/)    
+>[W3 Schools - if else](https://www.w3schools.com/php/php_if_else.asp)  
+>[W3 Schools - switch](https://www.w3schools.com/php/php_switch.asp)  
+> [W3 Schools - functies](https://www.w3schools.com/php/php_functions.asp)  
+> [Jaap vd Veen - functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+>[W3 Schools - includes](https://www.w3schools.com/php/php_includes.asp)
