@@ -27,9 +27,10 @@ In deze opdracht moet je naast code schrijven ook logisch nadenken welke functie
 >* De pagina's zullen als eerste een foutmelding geven los die eerst op! 
 
 ### Wat moet je maken?
+* Voor je start met programmeren moet je een plan (pseudocode) maken in Word of op papier
+>
 Voor deze opdracht moet je: 
 * Een website maken met 2 pagina's een home en een productpagina. 
-* Voor je start met programmeren moet je een plan (pseudocode) maken in Word of op papier
 * Op beide pagina's moet een werkend menu staan en een footer welke via include geplaatst zijn (maak dus een `menu.php en footer.php`.
 * De PHP functies in deze website zijn vereist en staan in een aparte pagina `functions.php`. Als deze pagina niet gevonden wordt dan moet er een _fatale foutmelding gegeven_ worden.
 * Alle code moet volgens de juiste syntax zijn geschreven.
