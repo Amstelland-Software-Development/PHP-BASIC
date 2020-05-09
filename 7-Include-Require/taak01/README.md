@@ -29,7 +29,7 @@ Je maakt zelf de keuze welke je gebruikt `include` of `require`. De meest logisc
 >
 * Als je een PHP file maakt met alleen een html menu hoef je alleen de html van een menu neer te zetten `<body>` en `<head>` etc._ tags etc zijn niet nodig!
 * Zorg dat het pad waar je naar verwijst klopt, staat de file bijvoorbeeld in een map _includes_ verwijs dan ook naar deze map, bijvoorbeeld: _includes/functions.php_.
-* Include de file op de regel waar je de html wilt hebben.
+* Include de file op de regel waar je de code wilt hebben.
 ```html
 <html>
 <head></head>
