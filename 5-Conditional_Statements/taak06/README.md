@@ -36,16 +36,16 @@ if($var1 < 10 && $var1 > 5) {
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
->2. Maak de volgende variabelen aan  
-
-
+>2. Maak met twee variabelen aan
+>3. Maak vier if else statements en gebruik met voor elke statement een andere logical operator.
+>4. Toon voor elke vergelijking een logische tekst op het scherm
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
->ongelijk  
->identiek  
->test1 is groter dan test2  
->test1 is groter of gelijk aan test2  
+>Een vergelijking met &&
+>Een vergelijking met ||
+>Een vergelijking met xor
+>Een vergelijking met !
 
 ## Bronnen
 >[Jaap vd Veen - statements](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-2-inleiding-statements/)  
