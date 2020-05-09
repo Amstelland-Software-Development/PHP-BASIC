@@ -15,11 +15,7 @@ Het beste wat je kan doen is alles in kleine stukjes opdelen (in functies) en di
 >_Vooral als de hoeveelheid code toeneemt is het handig om goed na te denken hoe je de code kan scheiden zodat je niet telkens dezelfde code schrijft._
 >  
 ## Leerdoelen
-
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
-> Voorbeeld:
->
-> 1. [ ] Ik kan met PHP een functie aanspreken
+> 1. [ ] Ik kan de basis van PHP toepassen in een webapplicatie
 
 ## Opdracht
 In deze opdracht moet je naast code schrijven ook logisch nadenken welke functies je nodig hebt en hoe je de applicatie opbouwt. **Lees onderstaande goed door!**
