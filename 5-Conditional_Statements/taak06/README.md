@@ -7,8 +7,27 @@ Soms wil je meer dan èèn vergelijking maken bijvoorbeeld als je wilt vergelijk
 
 >_Met logical operators kun je vergelijkingen (conditional statements) combineren!_
 
-**In PHP zijn dit de regels voor het opschrijven van een `switch` statement:** 
+In PHP heb je verschillende soorten logical operators namelijk:
+>* `&&`: True als beide waardes waar zijn
+>* `||`: True als een of beide van de twee waardes waar zijn
+>* `xor`: True als een van de twee waardes waar is maar niet beide
+>* `!`: (staat voor Not) True als de vergelijking niet waar is
 
+**In PHP zijn dit de regels voor het opschrijven van een logical operator:**
+* Zet eerst de eerste vergelijking neer zoals `$x < 10`
+* Gevolgd door de logical operator die je wilt gebruiken, bijvoorbeeld `&&`
+* Gevolgd door de tweede vergelijking `$x > 5`  
+>
+Dus als we willen checken of een variabele groter is dan 5 maar kleiner dan 10 dan ziet dat er in code zo uit:
+```php
+$var1 = 3;
+
+if($var1 < 10 && $var1 > 5) {
+    echo "het getal zit tussen de 10 en de 5!";
+} else {
+    echo "het getal is groter dan 10 of kleiner dan 5!";
+}
+```
 >
 ## Leerdoelen
 >1. [ ] ik weet wat logical operators zijn
@@ -16,22 +35,19 @@ Soms wil je meer dan èèn vergelijking maken bijvoorbeeld als je wilt vergelijk
 >3. [ ] Ik volg de juiste regels voor het schrijven van een logical operator
 
 ## Opdracht
-
 >1. Schrijf je code in `index.php`
->2. Gebruik bovenstaande code
->3. Verander de waarde van de variabele `$score` en toon de bijbehorende melding met `echo` op het scherm. Zorg dat elke vergelijking een keer waar is
+>2. Maak de volgende variabelen aan  
+
+
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
->Wow wat een fantastische score!  
->Wow bijna alle punten nog 1 te gaan!  
->Goed bezig, bijna alle punten!  
->Ga zo door!  
->Nog even oefenen dan haal je vast alle punten!  
->
->_de volgorde van de output kan ook anders zijn hangt af van wat jij per keer hebt ingevuld als waarde van de $variabele score_
+>ongelijk  
+>identiek  
+>test1 is groter dan test2  
+>test1 is groter of gelijk aan test2  
 
 ## Bronnen
 >[Jaap vd Veen - statements](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-2-inleiding-statements/)  
 >[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)  
->[W3 Schools - switch](https://www.w3schools.com/php/php_switch.asp)
+>[W3 Schools - if else](https://www.w3schools.com/php/php_if_else.asp)
