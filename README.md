@@ -42,6 +42,9 @@ Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
 >1. [ ] Ik weet wat functies zijn
 >2. [ ] Ik volg de juiste regels bij het schrijven van functies
 >3. [ ] Ik kan een functie aanroepen
+>1. [ ] Ik weet wat include en require is
+>2. [ ] Ik weet het verschil tussen include en require
+>3. [ ] Ik kan include en require gebruiken
 
 ## Bronnen
 >[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
