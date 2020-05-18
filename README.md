@@ -14,40 +14,40 @@ Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
 >* PHP is een server-side taal. Om PHP te kunnen gebruiken heb je een server nodig zoals XAMPP
 
 ## Leerdoelen
->1. [ ] Ik weet wat syntax is
->2. [ ] Ik volg de juiste regels bij het schrijven van code
->3. [ ] Ik ken (een deel van) de verschillende karakters die in PHP voorkomen
->1. [ ] Ik weet wat een variabele is
->2. [ ] Ik kan volgens de juiste regels een variabele maken
->4. [ ] Ik kan de waarde van een variabele op het scherm tonen
->5. [ ] Ik weet wat de verschillende datatype zijn
->6. [ ] Ik kan variabele met verschillende datatype maken
->7. [ ] Ik volg de juiste regels voor de verschillende datatype
->8. [ ] Ik weet wat gettype() is
->1. [ ] Ik kan variabelen en tekst op het scherm tonen met de echo statement
->1. [ ] Ik weet wat string operators zijn
->8. [ ] Ik weet wat een indexed array is
->9. [ ] Ik kan een indexed array maken
->10. [ ] Ik volg de juiste regels voor het maken van een indexed array
->11. [ ] Ik kan de waarde(s) van een indexed array variabele op het scherm tonen
->8. [ ] Ik weet wat var_dump() is
->1. [ ] Ik weet wat de verschillende comparison operators zijn
->2. [ ] Ik toon een vergelijking op het scherm met var_dump()
->3. [ ] Ik volg de juiste regels voor het vergelijken van variabelen
->1. [ ] Ik weet wat de verschillende conditional statements zijn
->2. [ ] ik weet wat een if, elseif, else statement is
->4. [ ] Ik volg de juiste regels voor het schrijven van een if, elseif, else statement
->1. [ ] ik weet wat logical operators zijn
->2. [ ] Ik gebruik logical operators in een conditional statement
->3. [ ] Ik volg de juiste regels voor het schrijven van een logical operator
->1. [ ] ik weet wat een switch statement is
->3. [ ] Ik volg de juiste regels voor het schrijven van een switch statement
->1. [ ] Ik weet wat functies zijn
->2. [ ] Ik volg de juiste regels bij het schrijven van functies
->3. [ ] Ik kan een functie aanroepen
->1. [ ] Ik weet wat include en require is
->2. [ ] Ik weet het verschil tussen include en require
->3. [ ] Ik kan include en require gebruiken
+>* [ ] Ik weet wat syntax is
+>* [ ] Ik volg de juiste regels bij het schrijven van code
+>* [ ] Ik ken (een deel van) de verschillende karakters die in PHP voorkomen
+>* [ ] Ik weet wat een variabele is
+>* [ ] Ik kan volgens de juiste regels een variabele maken
+>* [ ] Ik kan de waarde van een variabele op het scherm tonen
+>* [ ] Ik weet wat de verschillende datatype zijn
+>* [ ] Ik kan variabele met verschillende datatype maken
+>* [ ] Ik volg de juiste regels voor de verschillende datatype
+>* [ ] Ik weet wat gettype() is
+>* [ ] Ik kan variabelen en tekst op het scherm tonen met de echo statement
+>* [ ] Ik weet wat string operators zijn
+>* [ ] Ik weet wat een indexed array is
+>* [ ] Ik kan een indexed array maken
+>* [ ] Ik volg de juiste regels voor het maken van een indexed array
+>* [ ] Ik kan de waarde(s) van een indexed array variabele op het scherm tonen
+>* [ ] Ik weet wat var_dump() is
+>* [ ] Ik weet wat de verschillende comparison operators zijn
+>* [ ] Ik toon een vergelijking op het scherm met var_dump()
+>* [ ] Ik volg de juiste regels voor het vergelijken van variabelen
+>* [ ] Ik weet wat de verschillende conditional statements zijn
+>* [ ] ik weet wat een if, elseif, else statement is
+>* [ ] Ik volg de juiste regels voor het schrijven van een if, elseif, else statement
+>* [ ] ik weet wat logical operators zijn
+>* [ ] Ik gebruik logical operators in een conditional statement
+>* [ ] Ik volg de juiste regels voor het schrijven van een logical operator
+>* [ ] ik weet wat een switch statement is
+>* [ ] Ik volg de juiste regels voor het schrijven van een switch statement
+>* [ ] Ik weet wat functies zijn
+>* [ ] Ik volg de juiste regels bij het schrijven van functies
+>* [ ] Ik kan een functie aanroepen
+>* [ ] Ik weet wat include en require is
+>* [ ] Ik weet het verschil tussen include en require
+>* [ ] Ik kan include en require gebruiken
 
 ## Bronnen
 >[W3 Schools - syntax](https://www.w3schools.com/PHP/php_syntax.asp)  
