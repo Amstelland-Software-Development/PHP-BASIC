@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Title</title>
-  </head>
+  </head>\
+  <body>
     <form action="producten.php" method="get"><!-- dit laten staan! -->
 
     <p>Hieronder een lijst met producten die je bij ons kunt bestellen en de prijs per stuk:</p>
