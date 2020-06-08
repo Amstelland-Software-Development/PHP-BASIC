@@ -7,16 +7,27 @@ Als je maar een waarde wilt vergelijken met een lijst van mogelijke waardes is h
 
 **In PHP zijn dit de regels voor het opschrijven van een `switch` statement:** 
 >_De syntax van een `switch` statement:_  
->`switch (n) {`  
->`case label1:`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`code to be executed if n=label1;`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`break;`  
->`case label2:`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`code to be executed if n=label2;`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`break;`  
->`default:`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`code to be executed if n is different from all labels;`  
->`}`  
+```php
+switch(voornaam){
+    
+    case 'lotte':
+        echo 'Lotte is erg goed in rugby';
+    break;
+
+    case 'abdel':
+        echo 'Abdel is een toffe gozer';
+    break;
+    
+    case 'muhammed':
+        echo 'Muhammed is altijd op tijd';
+    break;
+
+    case 'bas':
+        echo 'Bas kan zich goed focusen';
+    break;
+}
+```
+
 
 >Stel je maakt een applicatie waar je bij iedere score een andere waarde moet tonen dan kun je dit doen met de `switch` statement
 * Eerst moeten we de variabelen aanmaken:
