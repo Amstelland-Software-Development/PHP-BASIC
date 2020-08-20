@@ -25,7 +25,7 @@ Stel je maakt een spel waar de speler steeds een item aan een lijst moet toevoeg
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
->2. Maak een integer variabelen aan: _item_ en geef deze een eigen gekozen waarden _een string natuurlijk!_
+>2. Maak een string variabelen aan: _item_ en geef deze een eigen gekozen waarden _een string natuurlijk!_
 >3. Voeg nog 2 items toe aan de variabele _item_ door `.=` te gebruiken en toon de uitkomst in een unordered list op het scherm met `echo`
 >4. _Gebruik HTML in je `echo` statement om de uitkomst onder elkaar te tonen in plaats van naast elkaar_
 
