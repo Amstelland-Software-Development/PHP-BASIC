@@ -4,7 +4,7 @@
 Zoals uitgelegd in de vorige taak kun je in een variabele verschillende soorten waarden opslaan, zoals: 
 * een stukje tekst - bijvoorbeeld je naam
 * een heel getal - zoals je leeftijd  
-* een decimaal getal - zoals de kosten van je telefoonabonnement. 
+* een decimaal getal - zoals de kosten van je telefoonabonnement.  
 Naast tekst en cijfers heb je ook nog datatypes die handig zijn om mee te programmeren zoals true/false, null, array en objects.
 >
 >_Het soort waarde dat je opslaat (tekst, getal, decimaal, etc.) noemen we een datatype._
