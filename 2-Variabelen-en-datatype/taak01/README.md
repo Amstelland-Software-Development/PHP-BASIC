@@ -3,13 +3,13 @@
 ## Uitleg
 Een variabele wordt gebruikt om dingen op te slaan, zoals jij ook dingen opslaat in je hoofd. Als je bijvoorbeeld nooit opslaat wat bijvoorbeeld je leeftijd is of waar je woont dan zou dat heel onhandig zijn.
 >
-_Een variabele heet variabele omdat de waarde kan veranderen net zoals jouw leeftijd verandert._
+_Een variabele heet variabele omdat de waarde kan veranderen, net zoals jouw leeftijd verandert._
 > 
-Hoe jij dingen onthoudt bepaal je zelf. Een programeertaal moet je vertellen hoe hij iets moet onthouden, dit gaat volgens vaste regels (syntax) _anders snapt hij er niks van_.
+Hoe jij dingen onthoudt bepaal je zelf. Aan een programeertaal moet je vertellen hoe hij iets moet onthouden. Dit gaat volgens vaste regels (syntax) _anders snapt hij er niks van_.
 
 **In PHP zijn dit de regels voor het aanmaken van een variabele:**
 * Om PHP te vertellen dat je een variabele gaat maken, moet je beginnen met een `$`.  
-* Gevolgd door een logische naam - _anders onthoud jij niet meer waar de variabele voor is_ - De naam moet beginnen met een letter of een underscore (_) en is case sensitive.
+* Gevolgd door een logische naam - _anders onthoud jij niet meer wat de inhoud van de variabele is_ - De naam moet beginnen met een letter of een underscore (_) en is case sensitive.
 * Daarna gebruik je een `=` teken.
 * Daarna zet je de waarde neer die je wilt onthouden.
 * En als laatste gebruik je een `;` _zo begrijpt PHP dat het het einde van de regel is_.
@@ -19,7 +19,7 @@ Hoe jij dingen onthoudt bepaal je zelf. Een programeertaal moet je vertellen hoe
 >* Als je een spel begint is de score altijd 0
 >* Als je het volgens de regels hierboven opschrijft ziet de code er zo uit: `$score = 0;`
 >* Vergeet niet dat PHP-code tussen `<?php //de code ?>` tags staat
->* Om php op het scherm te tonen gebruik je het commando `echo`  gevolgd door een spatie en de waarde die je wilt tonen dus `<?php echo waarde ?>`
+>* Om php op het scherm te tonen gebruik je het commando `echo`, gevolgd door een spatie en de waarde die je wilt tonen dus: `<?php echo waarde ?>`
 
 ## Leerdoelen
 >1. [ ] Ik weet wat een variabele is
@@ -34,7 +34,7 @@ Hoe jij dingen onthoudt bepaal je zelf. Een programeertaal moet je vertellen hoe
 >3. Toon de waarde van de variabele _score_ op het scherm met `echo`
 
 ## Eindresultaat
-Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
 >0  
 
 ## Bronnen
