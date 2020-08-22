@@ -11,7 +11,7 @@ Stel je maakt een spel waar de speler steeds een item aan een lijst moet toevoeg
     $item = "<li>tas</li>";
     $item = $item . "<li>bal</li>";
 ```
->_Hij moet voor een lijst ook de oude waarde van de variabele onthouden daarom staat er twee keer $item_.  
+>_Het spel moet voor een lijst ook de oude waarde van de variabele onthouden daarom staat er twee keer $item_.  
 >
 >Een veel snellere (en makkelijkere) manier om dit te doen is:
 ```php
@@ -20,17 +20,17 @@ Stel je maakt een spel waar de speler steeds een item aan een lijst moet toevoeg
 ```
 >
 ## Leerdoelen
->1. [ ] Ik weet wat string operators zijn
->2. [ ] Ik kan een extra tekst waarde aan een string variabele toevoegen
+>1. [ ] Ik weet wat stringoperators zijn
+>2. [ ] Ik kan een extra tekstwaarde aan een stringvariabele toevoegen
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
->2. Maak een string variabelen aan: _item_ en geef deze een eigen gekozen waarden _een string natuurlijk!_
->3. Voeg nog 2 items toe aan de variabele _item_ door `.=` te gebruiken en toon de uitkomst in een unordered list op het scherm met `echo`
->4. _Gebruik HTML in je `echo` statement om de uitkomst onder elkaar te tonen in plaats van naast elkaar_
+>2. Maak een stringvariabele aan: _item_ en geef deze een zelfgekozen waarde _een string natuurlijk!_
+>3. Voeg nog twee items toe aan de variabele _item_ door `.=` te gebruiken en toon de uitkomst in een unordered list op het scherm met `echo`
+>4. _Gebruik HTML in je `echo`-statement om de uitkomst onder elkaar te tonen in plaats van naast elkaar_
 
 ## Eindresultaat
-Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
 >* item 1
 >* item 2
 >* item 3
