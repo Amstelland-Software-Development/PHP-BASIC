@@ -3,10 +3,10 @@
 ## Uitleg
 Je hebt geleerd hoe je met variabelen kan rekenen door het gebruik van Arithmic Operators (+ - * /).
 
-Naast het gebruik van `$getal1` + `$getal2` waar je twee integer of float variabelen bij elkaar optelt is er ook een andere manier.
+Naast het gebruik van `$getal1` + `$getal2` waar je twee integer- of float-variabelen bij elkaar optelt, is er ook een andere manier.
 
 >Voorbeeld:  
-Stel je maakt een spel waar de score steeds 10 hoger moet worden als de speler een punt scoort zou je dit kunnen doen met de volgende code:
+Stel je maakt een spel waar de score steeds 10 hoger moet worden als de speler een punt scoort. Dan zou je dit kunnen doen met de volgende code:
 ```php
     $score = $score + 10;
 ```
@@ -15,21 +15,21 @@ Stel je maakt een spel waar de score steeds 10 hoger moet worden als de speler e
     $score += 10
 ```
 >
-Als je een bepaald getal (bijvoorbeeld 10) 
-* van een variabele wilt aftrekken gebruik je `$variabele` -`= 10`
-* met een variabele wilt vermenigvuldigen gebruik je `$variabele` *`= 10`
-* door een variabele wilt delen gebruik je `$variabele` /`= 10`
+Als je een bepaald getal (bijvoorbeeld 10): 
+* van een variabele wilt aftrekken, gebruik je `$variabele` -`= 10`
+* met een variabele wilt vermenigvuldigen, gebruik je `$variabele` *`= 10`
+* door een variabele wilt delen, gebruik je `$variabele` /`= 10`
 
->_er is nog een andere assignment operators: %= (modulus) hier komen we later op terug._
+>_er is nog een andere assignmentoperators: %= (modulus). Hier komen we later op terug._
 
 >
 ## Leerdoelen
->1. [ ] Ik weet wat assignment operators zijn
+>1. [ ] Ik weet wat assignment-operators zijn
 >2. [ ] Ik kan de waarde van een variabele veranderen met een assignment operator
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
->2. Maak een integer variabelen aan: _getal1_ en geef deze een eigen gekozen waarden _een getal natuurlijk!_
+>2. Maak een integer-variabele aan: _getal1_ en geef deze een zelfgekozen waarde _een getal natuurlijk!_
 >3. Pas de waarde van de variabele _getal1_ aan door `+=`, `-=`, `*=` en `/=` te gebruiken en toon de uitkomst op het scherm met `echo`
 >4. _Gebruik HTML in je `echo` statement om de uitkomst onder elkaar te tonen in plaats van naast elkaar_
 
