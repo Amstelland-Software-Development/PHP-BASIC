@@ -61,3 +61,10 @@ Nu gaat de functie doen waarvoor ie in het leven is geroepen. En we kunnen de fu
 > [W3 Schools - syntax](https://www.w3schools.com/PHP/php_syntax.asp)  
 > [W3 Schools - functies](https://www.w3schools.com/php/php_functions.asp)  
 > [Jaap vd Veen - functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)
+
+
+<!--- ------------ DIT COMMENTAAR LATEN STAAN AUB ------------
+------------------ ------------------------------ ------------
+------------------ eagle ref:79860862
+------------------ ------------------------------ ------------
+------------------ DIT COMMENTAAR LATEN STAAN AUB -------- -->
