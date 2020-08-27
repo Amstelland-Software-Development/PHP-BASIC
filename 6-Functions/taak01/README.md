@@ -40,9 +40,9 @@ Nu gaat de functie doen waarvoor ie in het leven is geroepen. En we kunnen de fu
 
 ## Leerdoelen
 
-> 1.  [ ] Ik weet wat functies zijn
-> 2.  [ ] Ik volg de juiste regels bij het schrijven van functies
-> 3.  [ ] Ik kan een functie aanroepen
+> 1. [ ] Ik weet wat functies zijn
+> 2. [ ] Ik volg de juiste regels bij het schrijven van functies
+> 3. [ ] Ik kan een functie aanroepen
 
 ## Opdracht
 
