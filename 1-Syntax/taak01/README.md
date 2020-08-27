@@ -34,3 +34,10 @@ Kijk maar eens naar de syntax van een echo statement op: https://www.w3schools.c
 
 ## Bronnen
 >[W3 Schools - syntax](https://www.w3schools.com/PHP/php_syntax.asp)  
+
+
+<!--- ------------ DIT COMMENTAAR LATEN STAAN AUB ------------
+------------------ ------------------------------ ------------
+------------------ eagle ref:94453368
+------------------ ------------------------------ ------------
+------------------ DIT COMMENTAAR LATEN STAAN AUB -------- -->
