@@ -34,3 +34,9 @@ Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser:
 >[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
 >[W3 Schools - variabelen](https://www.w3schools.com/php/php_variables.asp)  
 >[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)  
+
+<!--- ------------ DIT COMMENTAAR LATEN STAAN AUB ------------
+------------------ ------------------------------ ------------
+------------------ eagle ref:36378698
+------------------ ------------------------------ ------------
+------------------ DIT COMMENTAAR LATEN STAAN AUB -------- -->
