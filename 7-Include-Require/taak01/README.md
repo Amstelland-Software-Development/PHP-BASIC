@@ -70,3 +70,10 @@ Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser:
 ## Bronnen
 >[W3 Schools - includes](https://www.w3schools.com/php/php_includes.asp)
 
+
+
+<!--- ------------ DIT COMMENTAAR LATEN STAAN AUB ------------
+------------------ ------------------------------ ------------
+------------------ eagle ref:25213464
+------------------ ------------------------------ ------------
+------------------ DIT COMMENTAAR LATEN STAAN AUB -------- -->
