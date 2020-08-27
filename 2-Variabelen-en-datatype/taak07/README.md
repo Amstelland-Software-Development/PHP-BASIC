@@ -31,3 +31,9 @@ _Waar hierboven xxx staat moet natuurlijk jouw echte naam en leeftijd staan!_
 
 ## Bronnen
 >[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)
+
+<!--- ------------ DIT COMMENTAAR LATEN STAAN AUB ------------
+------------------ ------------------------------ ------------
+------------------ eagle ref:43005156
+------------------ ------------------------------ ------------
+------------------ DIT COMMENTAAR LATEN STAAN AUB -------- -->
