@@ -1,22 +1,22 @@
 # PHP-BASIC-TAAK-09
 ## String operators - concatenation
 ## Uitleg
-Je hebt geleerd dat je variabelen en tekst (gewone tekst of html code) samen via `echo` op het scherm kan tonen door ze samen tussen quotes (") te zetten. In sommige gevallen krijg je niet het gewenste resultaat en moet je de verschillende stukken aan elkaar rijgen (concatenation). dit doe je door de string operator `.` te gebruiken
+Je hebt geleerd dat je variabelen en tekst (gewone tekst of HTML-code) samen via `echo` op het scherm kan tonen door ze samen tussen quotes (") te zetten. In sommige gevallen krijg je niet het gewenste resultaat en moet je de verschillende stukken aan elkaar rijgen (concatenation). dit doe je door de string operator `.` te gebruiken
 
 **In PHP zijn dit de regels voor het gebruik van de `.` string operator:**
-* Alles wat tekst (of html) is moet je dan tussen quotes (") zetten.
-* Om een spatie in je tekst te krijgen typ je een spatie.
+* Alles wat tekst (of HTML) is, moet je tussen quotes (") zetten.
+* Waar je een spatie in je tekst wilt krijgen, type je ook een spatie.
 * Je variabelen moet je _niet_ tussen quotes zetten.
-* verbind de verschillende onderdelen tekst en variabelen met elkaar door er een `.` tussen te zetten.
+* Verbind de verschillende onderdelen tekst en variabelen met elkaar door er een `.` tussen te zetten.
 
 _Voorbeeld:_  
->Je hebt twee variabelen `$voornaam` en `$leeftijd` op het scherm moet de volgende tekst komen te staan: Jouw naam is Tom en je bent 19 jaar oud. Dan ziet de code er als volgt uit:
+>Je hebt twee variabelen `$voornaam` en `$leeftijd`. Op het scherm moet de volgende tekst komen te staan: Jouw naam is Tom en je bent 19 jaar oud. Dan ziet de code er als volgt uit:
 ```php
     $voornaam = "Tom";
     $leeftijd = 19;
     echo "Jouw naam is " . $voornaam . " en je bent " . $leeftijd . " jaar oud.";
 ```
->_Bekijk bovenstaande code eens goed! Zie je dat er hier en daar spaties tussen de tekst en de " staan zoals na het woordje is? Als je dit niet doet komt alle tekst tegen elkaar te staan en krijg je niet het gewenste resultaat!_
+>_Bekijk bovenstaande code eens goed! Zie je dat er hier en daar spaties tussen de tekst en de " staan zoals na het woordje is? Als je dit niet doet, komt alle tekst tegen elkaar te staan en krijg je niet het gewenste resultaat!_
 >
 ## Leerdoelen
 >1. [ ] Ik weet wat de string operator: concatenation is
@@ -30,7 +30,7 @@ _Voorbeeld:_
 >_Waar hierboven xxx staat moet natuurlijk jouw echte naam en leeftijd staan!_
 
 ## Eindresultaat
-Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
+Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser: 
 >Jouw naam is xxx en je bent je xxx jaar oud.  
 >
 _Waar hierboven xxx staat moet natuurlijk jouw echte naam en leeftijd staan!_

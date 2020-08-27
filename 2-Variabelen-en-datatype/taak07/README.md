@@ -1,9 +1,9 @@
 # PHP-BASIC-TAAK-07
 ## Variabelen - data en tekst combineren
 ## Uitleg
-Je weet hoe je een variabele moet maken en moet tonen met `echo` op het scherm. In veel gevallen wil je niet alleen de waarde van een variabele laten zien maar ook een stuk tekst die niet in een variabele staat.
+Je weet nu hoe je een variabele moet maken en moet tonen met `echo` op het scherm. In veel gevallen wil je niet alleen de waarde van een variabele laten zien maar ook een stuk tekst die niet in deze variabele staat.
 
-Met PHP kan je variabelen en tekst (gewone tekst of html code) samen via `echo` op het scherm tonen. Dit kan door ze samen tussen quotes (") te zetten.
+Met PHP kan je variabelen en tekst (gewone tekst of HTML-code) samen via `echo` op het scherm tonen. Dit kan door ze samen tussen quotes (") te zetten.
 
 >_Voorbeeld:_  
 >Je hebt twee variabelen `$voornaam` en `$leeftijd` op het scherm moet de volgende tekst komen te staan: Jouw naam is Tom en je bent 19 jaar oud. Dan ziet de code er als volgt uit:

@@ -5,13 +5,13 @@
 
 ## Uitleg
 
-In deze module leer je de basis van PHP. Je leert o.a. wat variabelen zijn, welke datatypes er in PHP veel gebruikt worden, hoe je de uitvoering van je programma beinvloed door het gebruik van condities met behulp van if/else/elseif en switch en hoe je je code logisch onderverdeeld in functies.
+In deze module leer je de basis van PHP. Je leert o.a. wat variabelen zijn, welke datatypes er in PHP veel gebruikt worden, hoe je de uitvoering van je programma beïnvloedt door het gebruik van condities met behulp van if/else/elseif en switch en hoe je je code logisch onderverdeelt in functies.
 
 Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
->* Je kan PHP code overal binnen je HTML gebruiken
->* PHP code begin je altijd met `<?php` en sluit je af met `?>`  
+>* Je kunt PHP-code overal binnen je HTML gebruiken
+>* PHP-code begin je altijd met `<?php` en sluit je af met `?>`  
 >* Het bestand waar PHP instaat heeft altijd de extensie `.php`
->* PHP is een server-side taal. Om PHP te kunnen gebruiken heb je een server nodig zoals XAMPP
+>* PHP is een server-sidetaal. Om PHP te kunnen gebruiken heb je een server nodig zoals XAMPP
 
 ## Leerdoelen
 >* [ ] Ik weet wat syntax is
@@ -62,6 +62,6 @@ Hieronder enkele basisregels waar je je binnen PHP aan moet houden:
 >[Jaap vd Veen - statements](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-2-inleiding-statements/)    
 >[W3 Schools - if else](https://www.w3schools.com/php/php_if_else.asp)  
 >[W3 Schools - switch](https://www.w3schools.com/php/php_switch.asp)  
-> [W3 Schools - functies](https://www.w3schools.com/php/php_functions.asp)  
-> [Jaap vd Veen - functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+>[W3 Schools - functies](https://www.w3schools.com/php/php_functions.asp)  
+>[Jaap vd Veen - functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
 >[W3 Schools - includes](https://www.w3schools.com/php/php_includes.asp)

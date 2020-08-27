@@ -1,15 +1,15 @@
 # PHP-BASIC-TAAK-01
 ## Syntax
 ## Uitleg
-Tegen computers kan je _niet_ zoals tegen mensen op heel veel verschillende manieren iets zeggen. Je moet tegen een computer duidelijke taal gebruiken!!
+Tegen computers kun je _niet_ op heel veel verschillende manieren iets zeggen, zoals tegen mensen. Je moet tegen een computer duidelijke en eenduidige taal gebruiken!!
 >
->_Als je niet de juiste taal gebruikt snapt PHP niet wat je bedoelt!._
+>_Als je niet exact de juiste taal gebruikt, snapt PHP niet wat je bedoelt!._
 > 
-In de komende taken ga je verschillende opdrachten leren die je aan PHP kan geven. Doe je dit niet volgens de juiste regels dan werkt het echt niet! Leer deze en de regels die in de taken genoemd worden goed uit je hoofd!
+In de komende taken ga je verschillende opdrachten leren die je aan PHP kunt geven. Doe je dit niet volgens de regels dan werkt het echt niet! Leer deze en de regels die in de taken genoemd worden uit je hoofd!
 
 **De verschillende karakters die gebruikt worden in PHP (en andere talen)**
->* Om het begin van PHP code aan te geven gebruik je `<?php`
->* Om het einde van PHP code aan te geven gebruik je `?>`
+>* Om het begin van PHP-code aan te geven gebruik je `<?php`
+>* Om het einde van PHP-code aan te geven gebruik je `?>`
 >* Aan het einde van een regel code gebruik je altijd een `;`
 >* Ronde haakjes `()` worden gebruikt om een (voor)waarde in te zetten.
 >* Accolades `{}` worden gebruikt om het begin en het einde van een codeblok aan te geven.

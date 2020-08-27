@@ -1,7 +1,11 @@
 # PHP-BASIC-TAAK-03
 ## Datatypes - integer / float
 ## Uitleg
-In een variabele kun je verschillende soorten waarden opslaan, zoals een stukje tekst, bijvoorbeeld je naam, een heel getal, zoals  je leeftijd, een decimaal getal, zoals de kosten van je telefoonabonnement. Naast tekst en cijfers heb je ook nog datatypes die handig zijn om mee te programmeren zoals true/false, null, array en objects.
+Zoals uitgelegd in de vorige taak kun je in een variabele verschillende soorten waarden opslaan, zoals: 
+* een stukje tekst - bijvoorbeeld je naam
+* een heel getal - zoals je leeftijd  
+* een decimaal getal - zoals de kosten van je telefoonabonnement.  
+Naast tekst en cijfers heb je ook nog datatypes die handig zijn om mee te programmeren zoals true/false, null, array en objects.
 >
 >_Het soort waarde dat je opslaat (tekst, getal, decimaal, etc.) noemen we een datatype._
 >
@@ -27,8 +31,8 @@ In PHP heb je verschillende soorten datatypes namelijk:
 
 ## Leerdoelen
 >1. [ ] Ik weet wat de verschillende datatypes zijn
->2. [ ] Ik maak een integer variabele aan in PHP
->3. [ ] Ik maak een float variabele aan in PHP
+>2. [ ] Ik maak een integervariabele aan in PHP
+>3. [ ] Ik maak een floatvariabele aan in PHP
 >4. [ ] Ik volg de juiste regels voor het maken van een variabele 
 >5. [ ] Ik volg de juiste regels voor het maken van een integer
 >6. [ ] Ik volg de juiste regels voor het maken van een float

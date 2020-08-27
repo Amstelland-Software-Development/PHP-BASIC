@@ -36,6 +36,7 @@
 > 5.  Echo de gewijzigde waarde op het scherm met behulp van de index
 
 ## Eindresultaat
+> Een lijst met de oorspronkelijke hondennamen en daaronder de gewijzigde lijst
 
 ## Bronnen
 
