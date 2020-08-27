@@ -53,3 +53,10 @@ Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser:
 
 ## Bronnen
 >[W3 Schools - datatypes](https://www.w3schools.com/PHP/php_datatypes.asp)
+
+
+<!--- ------------ DIT COMMENTAAR LATEN STAAN AUB ------------
+------------------ ------------------------------ ------------
+------------------ eagle ref:8728185
+------------------ ------------------------------ ------------
+------------------ DIT COMMENTAAR LATEN STAAN AUB -------- -->
