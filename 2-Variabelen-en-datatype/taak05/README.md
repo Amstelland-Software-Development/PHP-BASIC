@@ -33,3 +33,9 @@ Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser:
 ## Bronnen
 >[W3 Schools - datatypes](https://www.w3schools.com/php/php_datatypes.asp)  
 >[W3 Schools - gettype](https://www.w3schools.com/php/func_var_gettype.asp)
+
+<!--- ------------ DIT COMMENTAAR LATEN STAAN AUB ------------
+------------------ ------------------------------ ------------
+------------------ eagle ref:4372545
+------------------ ------------------------------ ------------
+------------------ DIT COMMENTAAR LATEN STAAN AUB -------- -->
