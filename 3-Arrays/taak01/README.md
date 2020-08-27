@@ -68,3 +68,9 @@ Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser:
 
 >[PHP ARRAYS](https://youtu.be/mNcZG4-Mi9M)
 >[W3 Schools - arrays](https://www.w3schools.com/PHP/php_arrays.asp)
+
+<!--- ------------ DIT COMMENTAAR LATEN STAAN AUB ------------
+------------------ ------------------------------ ------------
+------------------ eagle ref:91113875
+------------------ ------------------------------ ------------
+------------------ DIT COMMENTAAR LATEN STAAN AUB -------- -->
