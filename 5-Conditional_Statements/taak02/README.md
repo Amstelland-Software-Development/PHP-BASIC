@@ -90,3 +90,10 @@ Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser:
 >[Jaap vd Veen - statements](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-2-inleiding-statements/)  
 >[W3 Schools - operators](https://www.w3schools.com/php/php_operators.asp)  
 >[W3 Schools - if else](https://www.w3schools.com/php/php_if_else.asp)
+
+
+<!--- ------------ DIT COMMENTAAR LATEN STAAN AUB ------------
+------------------ ------------------------------ ------------
+------------------ eagle ref:74665567
+------------------ ------------------------------ ------------
+------------------ DIT COMMENTAAR LATEN STAAN AUB -------- -->
