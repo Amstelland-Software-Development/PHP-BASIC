@@ -29,7 +29,7 @@ switch(voornaam){
 ```
 
 
->Stel je maakt een applicatie waar je bij iedere score een andere waarde moet tonen dan kun je dit doen met de `switch` statement
+>Stel je maakt een applicatie waar je bij iedere score een andere waarde moet tonen, dan kun je dit doen met de `switch` statement
 * Eerst moeten we de variabelen aanmaken:
 ```php
     $score = 10;
@@ -41,7 +41,7 @@ switch(voornaam){
 * Daarna verwacht PHP een `:`
 * Op de regel daarna verwacht PHP de code die hij moet uitvoeren
 * Voor je weer een nieuwe `case` begint, zet je `break;` neer 
-* Om aan PHP te vertellen dat we aan het einde gekomen zijn van het `switch` codeblok sluiten we af met een `}`
+* Om aan PHP te vertellen dat we aan het einde gekomen zijn van het `switch` codeblok, sluiten we af met een `}`
 * Net als bij `if, elseif, else` kun je als alles niet waar is een andere waarde terug laten komen. Zet in dit geval in plaats van `case waarde` het woord `default:` neer.
 >
 Dit is hoe de gehele code er uit moet zien:
@@ -65,7 +65,7 @@ switch($score) {
     echo "Nog even oefenen dan haal je vast alle punten!";
 }
 ```
->_De meest gemaakte fout bij een `if` statement is dat de vergelijking met één `=` wordt geschreven: `($variabele1 = $variabele2)` in plaats van `($variabele1 == $variabele2)`. Let daar goed op, want je code gaat niet werken als je het fout doet!_
+>_De meest gemaakte fout bij een `if` statement is dat de vergelijking met één `=` wordt geschreven: `($variabele1 = $variabele2)` in plaats van `($variabele1 == $variabele2)`. Let daar goed op, want je code werkt niet als je het fout doet!_
 >
 ## Leerdoelen
 >1. [ ] ik weet wat een switch statement is
@@ -86,7 +86,7 @@ Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser:
 >Ga zo door!  
 >Nog even oefenen dan haal je vast alle punten!  
 >
->_de volgorde van de output kan ook anders zijn hangt af van wat jij per keer hebt ingevuld als waarde van de $variabele score_
+>_de volgorde van de output kan ook anders zijn. Dat hangt af van wat jij per keer hebt ingevuld als waarde van de $variabele score_
 
 ## Bronnen
 >[Jaap vd Veen - statements](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-2-inleiding-statements/)  
