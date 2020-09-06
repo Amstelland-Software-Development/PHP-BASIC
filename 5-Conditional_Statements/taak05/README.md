@@ -37,12 +37,12 @@ switch(voornaam){
 * Schrijf voor de vergelijking eerst `switch()` op -> _PHP begrijpt nu dat je een vergelijking wilt maken_
 * Schrijf tussen de `()` de variabele die je wilt testen op:  
 * PHP verwacht nu een `{` om het begin van het codeblok aan te geven
-* Daarna schrijf je het woord `case` met daarachter de waarde die je wilt checken _let op: doe dit volgens de regels van de datatype, strings tussen quotes, getallen niet!_
+* Daarna schrijf je het woord `case` met daarachter de waarde die je wilt checken _let op: doe dit volgens de regels van de datatype: strings tussen quotes, getallen niet!_
 * Daarna verwacht PHP een `:`
 * Op de regel daarna verwacht PHP de code die hij moet uitvoeren
-* Voor je weer een nieuwe `case` begint zet je `break;` neer 
+* Voor je weer een nieuwe `case` begint, zet je `break;` neer 
 * Om aan PHP te vertellen dat we aan het einde gekomen zijn van het `switch` codeblok sluiten we af met een `}`
-* Net als bij `if, elseif, else` kun je als alles niet waar is een andere waarde terug laten komen zet in dit geval in plaats van `case waarde` het woord `default:` neer.
+* Net als bij `if, elseif, else` kun je als alles niet waar is een andere waarde terug laten komen. Zet in dit geval in plaats van `case waarde` het woord `default:` neer.
 >
 Dit is hoe de gehele code er uit moet zien:
 ```php
@@ -65,7 +65,7 @@ switch($score) {
     echo "Nog even oefenen dan haal je vast alle punten!";
 }
 ```
->_De meest gemaakte fout bij een `if` statement is dat de vergelijking met èèn `=` wordt geschreven `($variabele1 = $variabele2)` in plaats van `($variabele1 == $variabele2)`. Let daar goed op want je code gaat niet werken als je het fout doet!_
+>_De meest gemaakte fout bij een `if` statement is dat de vergelijking met één `=` wordt geschreven: `($variabele1 = $variabele2)` in plaats van `($variabele1 == $variabele2)`. Let daar goed op, want je code gaat niet werken als je het fout doet!_
 >
 ## Leerdoelen
 >1. [ ] ik weet wat een switch statement is
