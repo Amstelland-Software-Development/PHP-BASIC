@@ -20,7 +20,7 @@ _Je zou bovenstaande kunnen doen met 3 if statements maar de snellere manier is 
 >`elseif (condition) {`  
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`code to be executed if first condition is false and this condition is true;`  
 >`} else {`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`code to be executed if condition is false;`  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`code to be executed if all conditions are false;`  
 >`}`
 
 * De volgorde waarin je een `if elseif else` statement schrijft is belangrijk!   
