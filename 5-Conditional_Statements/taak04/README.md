@@ -1,16 +1,16 @@
 # PHP-BASIC-TAAK-04
 ## Conditional statement - If, elseif, else
 ## Uitleg
-We hebben gekeken naar de codeblokken voor `if` en `else` er is nog een blok die je kan toevoegen en dat is `elseif`
+We hebben gekeken naar de codeblokken voor `if` en `else` Er is nog een blok dat je kan toevoegen en dat is `elseif`
 >
->Stel je maakt een applicatie waarin de gebruiker een product kan kopen. De prijs van het product hangt af van het aantal producten die er gekocht worden.
+>Stel je maakt een applicatie waarin de gebruiker een product kan kopen. De prijs van het product hangt af van het aantal producten dat er gekocht wordt.
 >
 Dus als de klant: 
 * minder dan 10 producten koopt is de prijs per product €1.50 
 * minder dan 20 producten koopt is de prijs per product €1.25
 * meer dan 20 producten koopt is de prijs per product €1.00
 >
-_Je zou bovenstaande kunnen doen met 3 if statements maar de snellere manier is `elseif` te gebruiken. met `elseif` kan je namelijk een tweede conditie testen als de eerste false is!_
+_Je zou bovenstaande kunnen doen met 3 if statements maar de snellere manier is `elseif` te gebruiken. Met `elseif` kan je namelijk een tweede conditie testen als de eerste false is!_
 
 **In PHP zijn dit de regels voor het opschrijven van een if statement:**  
 >_De syntax van een if elseif else statement:_  
@@ -41,7 +41,7 @@ if($prod_besteld < 10) {
     $prijs = 1.00;
 }
 ```
-_Let goed op de schrijfwijze, waar staan haakjes en wat staat er tussen de haakjes, als je niet de juiste syntax gebruikt weet PHP echt niet wat het moet doen!_
+_Let goed op de schrijfwijze, waar staan haakjes en wat staat er tussen de haakjes? Als je niet de juiste syntax gebruikt, weet PHP echt niet wat het moet doen!_
 
 ## Leerdoelen
 >1. [ ] ik weet wat een if elseif else statement is
@@ -60,7 +60,7 @@ Als je de opdracht goed uitvoert, wordt de volgende tekst getoond in je browser:
 >1.25
 >1.00  
 >  
->_de volgorde van de output kan ook anders zijn hangt af van wat jij per keer hebt ingevuld als waarde van de variabele $prod_besteld_
+>_De volgorde van de output kan ook anders zijn. Dat hangt af van wat jij per keer hebt ingevuld als waarde van de variabele $prod_besteld_
 
 ## Bronnen
 >[Jaap vd Veen - statements](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-2-inleiding-statements/)  
