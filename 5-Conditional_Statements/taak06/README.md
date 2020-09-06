@@ -3,7 +3,7 @@
 ## Uitleg
 Je hebt geleerd hoe je twee waardes kan vergelijken en hoe je `if elseif else` en `switch` moet gebruiken.
 
-Soms wil je meer dan èèn vergelijking maken bijvoorbeeld als je wilt vergelijken of een getal groter dan 5 is maar kleiner dan 10. Dat lukt niet als je alleen kleiner dan 10 (`$x < 10`) gebruikt. Je wil ook nog weten of het getal groter is dan 5 (`$x > 5`). Hiervoor kun je logical operators gebruiken
+Soms wil je meer dan één vergelijking maken, bijvoorbeeld als je wilt vergelijken of een getal groter dan 5 is, maar kleiner dan 10. Dat lukt niet als je alleen kleiner dan 10 (`$x < 10`) gebruikt. Je wil ook nog weten of het getal groter is dan 5 (`$x > 5`). Hiervoor kun je logical operators gebruiken
 
 >_Met logical operators kun je vergelijkingen (conditional statements) combineren!_
 
@@ -36,8 +36,8 @@ if($var1 < 10 && $var1 > 5) {
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
->2. Maak met twee variabelen aan
->3. Maak vier `if else` statements en gebruik met voor elke statement een andere logical operator. Gebruik voor de vergelijking de twee variabelen die je hebt aangemaakt.
+>2. Maak twee variabelen aan
+>3. Maak vier `if else` statements en gebruik voor elke statement een andere logical operator. Gebruik voor de vergelijking de twee variabelen die je hebt aangemaakt.
 >4. Toon voor elke vergelijking een logische tekst op het scherm
 
 ## Eindresultaat
